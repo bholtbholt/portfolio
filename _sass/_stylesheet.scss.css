@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/* Design by Brian Holt, www.brianholt.ca */
+
+/* Layout ============================= */
+
+body { background:#333; font-family:'PT Sans', sans-serif; margin:0; }
+header {
+	background:#0099FF;
+	box-shadow:0 3px rgba(209,237,255,.8);
+	font-size:1.2em;
+	line-height:20px;
+	text-align:center;
+	text-transform:uppercase;
+	padding: 20px 0;
+}
+#portfolio { margin:10px auto; width:318px; }
+.clear { clear:both; }
+footer { clear:both; min-height:100px; }
+
+/* Menu ============================ */
+#logo {
+	color: #003D71;
+	font-size: 3.4em;
+	line-height: .8em;
+	letter-spacing: -5px;
+	margin: 0;
+}
+#filter { display:none; }
+nav ul, nav li {
+	list-style-type:none;
+	display:inline-block;
+	padding:0 8px;
+}
+nav a { 
+	color:#1c5690;
+	text-decoration:none;
+	-o-transition:color .2s ease-in;
+  -ms-transition:color .2s ease-in;
+  -moz-transition:color .2s ease-in;
+  -webkit-transition:color .2s ease-in;
+  transition:color .2s ease-in;
+  cursor: pointer;
+}
+nav a:hover { color:#fafafa; }
+#connect {
+	background:#FFF;
+	border-top:6px solid #e5e5e5;
+	color:#333;
+	display:none;
+	font-size:16px;
+	line-height:1.35em;
+ 	margin:20px auto 0;
+	padding:20px;
+	text-align:left;
+	text-transform:none;
+	width:314px;
+}
+#connect a { color:#0099FF; text-decoration:none; }
+#connect a:hover { color:#66ccff; }
+.connectButton {
+	cursor: pointer;
+}
+#bio {
+	display:inline-block;
+}
+#contact {
+	border:1px solid #e5e5e5;
+	display:block;
+	margin-top:20px;
+	padding:5px;
+}
+
+/* Tags ============================= */
+.tags {
+	background:#FFF;
+	border:0;
+	box-shadow:0 2px 3px rgba(0,0,0,.4);
+	display:inline-block;
+	float:left;
+	height:186px;
+	margin:10px;
+	text-align:center;
+	width:298px;
+}
+.tags .text{
+  -o-transition:opacity .2s ease-in;
+  -ms-transition:opacity .2s ease-in;
+  -moz-transition:opacity .2s ease-in;
+  -webkit-transition:opacity .2s ease-in;
+  transition:opacity .2s ease-in;
+ 	opacity: 0;
+}
+.tags:hover .text{ opacity: 1; }
+.text {
+	background:rgba(0,153,255,.8);
+	color:#FFF;
+	display:table-cell;
+	font-size:1.2em;
+	height:146px;
+	vertical-align:middle;
+	width:258px;
+	padding:20px;
+}
+.text > p:first-of-type {
+	font-size:1.2em;	
+}
+.text > p:last-of-type {
+	font-size:.7em;	
+	text-transform:uppercase;
+	word-spacing:1em;
+}
+
+/* Content ============================= */
+.content {
+	background:#FFF;
+	clear:both;
+	margin:0 auto;
+	padding:20px;
+	width: 258px;
+}
+.content h1 {
+	color:#0099FF;
+	font-size:2.4em;
+	line-height:1em;
+	margin-bottom:0px;
+}
+.content p, .content ul, .content ol {
+	color:#333;
+	font-size:16px;
+	line-height:1.5em;
+}
+.content p:first-of-type {
+	font-size:1.2em;
+}
+.content a { color:#0099FF; text-decoration:none; }
+.content a:hover { color:#66ccff; }
+.content aside img { float:right; margin-bottom:10px; }
+.content aside .left img { float:left; margin:0 0 10px 10px; }
+.galleryRow img { margin:0 10px 10px 0; }
+
+/* @Media ================================== */
+@media (min-width: 636px) {
+	#portfolio { width:636px; }
+	body { background:url(../images/background.png) fixed; }
+	#logo {	font-size: 9.2em;	}
+	#connect { width: 580px;}
+	.content { width:576px;	}
+	#logo {
+		font-size: 6em;
+		letter-spacing: -8px;
+	}
+}
+@media (min-width: 954px) {
+	header { padding-top: 60px; padding-bottom: 0; }
+	#logo {	font-size: 8.2em;	}
+	#filter { display:inline-block; }
+	#portfolio { width:954px; }
+	#connect { width: 766px;}
+	#bio { width:380px;}
+	#Twitter-Form {
+		display:inline-block;
+		float:right;
+		margin-top:20px;
+		width:314px;
+	}
+	.content {
+		width:894px;
+	}
+	.content section {
+		display:inline-block;
+		width:576px;
+	}
+	.content aside {
+		display:inline-block;
+		float:right;
+		margin-top:24px;
+		width:258px;
+	}
+}
