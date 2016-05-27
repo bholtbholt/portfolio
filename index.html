@@ -2,22 +2,22 @@
 layout: default
 ---
 
-<div class="home">
+<div id="portfolio">
+  {% for post in site.posts %}
+  {% assign tags = post.tags | join: ' ' %}
 
-  <h1 class="page-heading">Posts</h1>
+    <a href="#{{ post.id | split: "/" | last }}">
+      <div class="tags {{ tags }} " style="background:url( {{ site.url }}/images/{{ post.id | split: "/" | last }}-header.jpg )">
+        <div class=text>
+          <p> {{ post.title }} </p>
+          <p> {{ tags }} </p>
+        </div>
+      </div>
+    </a>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <div class="content" style="display: none">
+      {{ post.content }}
+    </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  {% endfor %}
 </div>
