@@ -10,10 +10,10 @@ tags: advertising design
 <p>Their record artwork was created from an old GTO advertisement, simplified, and edited for the band. I also created a promotional hand-out, that was placed on table tops at pubs prior to an event, using the cover design so audience members would recognize the artwork upon seeing a physical copy of the record.</p>
 </section>
 <aside><div class="left">
-<a href="{{ site.url }}/images/SSHB1.jpg" class="fancybox" title="Sweet Sweet Honey Bucket Concert Poster" rel="SSHB"><img src="{{ site.url }}/images/SSHB1-thumb.jpg" width="118" height="100"></a>
-<a href="{{ site.url }}/images/SSHB2.jpg" class="fancybox" title="Sweet Sweet Honey Bucket Concert Poster" rel="SSHB"><img src="{{ site.url }}/images/SSHB2-thumb.jpg" width="118" height="100"></a>
-<a href="{{ site.url }}/images/SSHB3.jpg" class="fancybox" title="So It Goes LP" rel="SSHB"><img src="{{ site.url }}/images/SSHB3-thumb.jpg" width="118" height="100"></a>
-<a href="{{ site.url }}/images/SSHB4.jpg" class="fancybox" title="Sweet Sweet Honey Bucket Table Handbill" rel="SSHB"><img src="{{ site.url }}/images/SSHB4-thumb.jpg" width="118" height="100"></a>
+<a href="images/SSHB1.jpg" class="fancybox" title="Sweet Sweet Honey Bucket Concert Poster" rel="SSHB"><img src="images/SSHB1-thumb.jpg" width="118" height="100"></a>
+<a href="images/SSHB2.jpg" class="fancybox" title="Sweet Sweet Honey Bucket Concert Poster" rel="SSHB"><img src="images/SSHB2-thumb.jpg" width="118" height="100"></a>
+<a href="images/SSHB3.jpg" class="fancybox" title="So It Goes LP" rel="SSHB"><img src="images/SSHB3-thumb.jpg" width="118" height="100"></a>
+<a href="images/SSHB4.jpg" class="fancybox" title="Sweet Sweet Honey Bucket Table Handbill" rel="SSHB"><img src="images/SSHB4-thumb.jpg" width="118" height="100"></a>
 </div></aside>
 </article>
 <div class="clear"></div>

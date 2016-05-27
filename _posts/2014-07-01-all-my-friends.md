@@ -13,16 +13,16 @@ tags: advertising design development
 <p>When Twitter revoked access to their users' streams, I updated their site to display their music videos. In December 2013, All My Friends released another Christmas song and I updated their website to match the mood. The most logical design move was to make the background <em>actually</em> snow. So that's what I did.</p>
 </section>
 <aside><div class="left">
-<a href="{{ site.url }}/images/AMF2.jpg" class="fancybox" title="I Have No Faith in Machines EP" rel="AMF"><img src="{{ site.url }}/images/AMF2-thumb.jpg" width="118" height="100"></a>
-<a href="{{ site.url }}/images/AMF3.jpg" class="fancybox" title="That's What Christmas is All About EP" rel="AMF"><img src="{{ site.url }}/images/AMF3-thumb.jpg" width="118" height="100"></a>
-<a href="{{ site.url }}/images/AMF4.jpg" class="fancybox" title="Megan Fox Single" rel="AMF"><img src="{{ site.url }}/images/AMF4-thumb.jpg" width="118" height="100"></a>
-<a href="{{ site.url }}/images/AMF10.jpg" class="fancybox" title="Very Christmas Song Single" rel="AMF"><img src="{{ site.url }}/images/AMF10-thumb.jpg" width="118" height="100"></a>
-<a href="{{ site.url }}/images/AMF8.jpg" class="fancybox" title="All My Friends Concert Poster" rel="AMF"><img src="{{ site.url }}/images/AMF8-thumb.jpg" width="118" height="100"></a>
-<a href="{{ site.url }}/images/AMF7.jpg" class="fancybox" title="All My Friends Concert Poster" rel="AMF"><img src="{{ site.url }}/images/AMF7-thumb.jpg" width="118" height="100"></a>
-<a href="{{ site.url }}/images/AMF6.jpg" class="fancybox" title="All My Friends Concert Poster" rel="AMF"><img src="{{ site.url }}/images/AMF6-thumb.jpg" width="118" height="100"></a>
-<a href="{{ site.url }}/images/AMF5.jpg" class="fancybox" title="All My Friends Concert Poster" rel="AMF"><img src="{{ site.url }}/images/AMF5-thumb.jpg" width="118" height="100"></a>
-<a href="{{ site.url }}/images/AMF1.jpg" class="fancybox" title="allmyfriendsmusic.com" rel="AMF"><img src="{{ site.url }}/images/AMF1-thumb.jpg" width="118" height="100"></a>
-<a href="{{ site.url }}/images/AMF9.jpg" class="fancybox" title="allmyfriends.ca Christmas-themed website" rel="AMF"><img src="{{ site.url }}/images/AMF9-thumb.jpg" width="118" height="100"></a>
+<a href="images/AMF2.jpg" class="fancybox" title="I Have No Faith in Machines EP" rel="AMF"><img src="images/AMF2-thumb.jpg" width="118" height="100"></a>
+<a href="images/AMF3.jpg" class="fancybox" title="That's What Christmas is All About EP" rel="AMF"><img src="images/AMF3-thumb.jpg" width="118" height="100"></a>
+<a href="images/AMF4.jpg" class="fancybox" title="Megan Fox Single" rel="AMF"><img src="images/AMF4-thumb.jpg" width="118" height="100"></a>
+<a href="images/AMF10.jpg" class="fancybox" title="Very Christmas Song Single" rel="AMF"><img src="images/AMF10-thumb.jpg" width="118" height="100"></a>
+<a href="images/AMF8.jpg" class="fancybox" title="All My Friends Concert Poster" rel="AMF"><img src="images/AMF8-thumb.jpg" width="118" height="100"></a>
+<a href="images/AMF7.jpg" class="fancybox" title="All My Friends Concert Poster" rel="AMF"><img src="images/AMF7-thumb.jpg" width="118" height="100"></a>
+<a href="images/AMF6.jpg" class="fancybox" title="All My Friends Concert Poster" rel="AMF"><img src="images/AMF6-thumb.jpg" width="118" height="100"></a>
+<a href="images/AMF5.jpg" class="fancybox" title="All My Friends Concert Poster" rel="AMF"><img src="images/AMF5-thumb.jpg" width="118" height="100"></a>
+<a href="images/AMF1.jpg" class="fancybox" title="allmyfriendsmusic.com" rel="AMF"><img src="images/AMF1-thumb.jpg" width="118" height="100"></a>
+<a href="images/AMF9.jpg" class="fancybox" title="allmyfriends.ca Christmas-themed website" rel="AMF"><img src="images/AMF9-thumb.jpg" width="118" height="100"></a>
 </div></aside>
 </article>
 <div class="clear"></div>

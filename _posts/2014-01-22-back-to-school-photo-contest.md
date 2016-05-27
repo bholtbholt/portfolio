@@ -11,8 +11,8 @@ tags: advertising design
 <p>As I was nearing the final strokes of the letter Q, the teacher interrupted the classroom with the next activity. I quickly tried to race through the remaining letters, but one of her cohorts snatched the book from me. When I insisted on finishing it <em>now,</em> she condescendingly remarked how cute I was and that I could finish tomorrow. <em>Tomorrow!? As if I'm ever coming back here!</em></p>
 <p>We carried on with various activities and when that warning bell rang again, we were herded outside. <em>Finally, I have a chance to escape!</em> With a breath of fresh air I looked out at my world only to find my mom waiting for me. Unabashedly, I raced toward her; she had come to rescue me. When she asked how my first day was, I was startled. <em>The entire day? It's over?</em> It turned out that teacher had some sort of time-control device that made the excruciating days go by quickly. Unfortunately, it seems in the chaos of that first day no pictures were taken to verify these events. You'll have to take my word for it.</p>
 </section>
-<aside><a href="{{ site.url }}/images/BackToSchool2.jpg" class="fancybox" title="Back to School Photo Contest" rel="Back to School Photo Contest"><img src="{{ site.url }}/images/BackToSchool-thumb.jpg" width="258" height="356"></a>
-<a href="{{ site.url }}/images/BackToSchool1.jpg" class="fancybox" title="Back to School Photo Contest" rel="Back to School Photo Contest"></a>
-<a href="{{ site.url }}/images/BackToSchool3.gif" class="fancybox" title="Back to School Photo Contest" rel="Back to School Photo Contest"></a></aside>
+<aside><a href="images/BackToSchool2.jpg" class="fancybox" title="Back to School Photo Contest" rel="Back to School Photo Contest"><img src="images/BackToSchool-thumb.jpg" width="258" height="356"></a>
+<a href="images/BackToSchool1.jpg" class="fancybox" title="Back to School Photo Contest" rel="Back to School Photo Contest"></a>
+<a href="images/BackToSchool3.gif" class="fancybox" title="Back to School Photo Contest" rel="Back to School Photo Contest"></a></aside>
 </article>
 <div class="clear"></div>

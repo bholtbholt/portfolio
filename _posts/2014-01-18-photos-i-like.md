@@ -8,7 +8,7 @@ tags: photography
 <div class="galleryRow">
 <?php
   for($i=1; $i<=48; $i++) {
-    echo '<a href="{{ site.url }}/images/photos/photos'.$i.'.jpg" class="fancybox" rel="Photos"><img src="{{ site.url }}/images/photos/photos'.$i.'-thumb.jpg" width="132" height="132"></a>';
+    echo '<a href="images/photos/photos'.$i.'.jpg" class="fancybox" rel="Photos"><img src="images/photos/photos'.$i.'-thumb.jpg" width="132" height="132"></a>';
   }
 ?>
 </div>

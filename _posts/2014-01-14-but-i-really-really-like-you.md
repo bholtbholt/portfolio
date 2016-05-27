@@ -9,6 +9,6 @@ tags: art
 <p>I wondered two things one day: what a monster would look like, and what it would be doing. I had come back from a sour date when the idea popped into my head. I guess I was wondering what went wrong. I suppose I wasn't that funny—I get jokes…<em>really</em>. Maybe she thought I was bland. Or that I came on too strong—that was probably it.</p>
 <p>So that answers what a monster might be doing; not understanding what coming on too strong means. What would he look like? Does it matter? He's a monster. Run away.</p>
 </section>
-<aside><a href="{{ site.url }}/images/ButIReallyReallyLikeYou.jpg" class="fancybox" title="But I Really, Really Like You"><img src="{{ site.url }}/images/ButIReallyReallyLikeYou-thumb.jpg" width="258" height="258"></a></aside>
+<aside><a href="images/ButIReallyReallyLikeYou.jpg" class="fancybox" title="But I Really, Really Like You"><img src="images/ButIReallyReallyLikeYou-thumb.jpg" width="258" height="258"></a></aside>
 </article>
 <div class="clear"></div>

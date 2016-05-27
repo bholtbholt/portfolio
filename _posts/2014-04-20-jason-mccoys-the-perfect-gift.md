@@ -14,10 +14,10 @@ tags: advertising
 <p>Mix ingredients into an award-winning cup and you've got <em>the perfect drink</em>. Pour it all over newsprint and you've got <em>the perfect ad campaign</em> for Jason McCoy.</p>
 </section>
 <aside><div class="left">
-<a href="{{ site.url }}/images/JasonMcCoy1.jpg" class="fancybox" title="Jason McCoy's The Perfect Gift Advertisement" rel="Jason McCoy"><img src="{{ site.url }}/images/JasonMcCoy1-thumb.jpg" width="118" height="100"></a>
-<a href="{{ site.url }}/images/JasonMcCoy2.jpg" class="fancybox" title="Jason McCoy's The Perfect Gift Advertisement" rel="Jason McCoy"><img src="{{ site.url }}/images/JasonMcCoy2-thumb.jpg" width="118" height="100"></a>
-<a href="{{ site.url }}/images/JasonMcCoy3.jpg" class="fancybox" title="Jason McCoy's The Perfect Gift Advertisement" rel="Jason McCoy"><img src="{{ site.url }}/images/JasonMcCoy3-thumb.jpg" width="118" height="100"></a>
-<a href="{{ site.url }}/images/JasonMcCoy4.jpg" class="fancybox" title="Jason McCoy's The Perfect Gift Advertisement" rel="Jason McCoy"><img src="{{ site.url }}/images/JasonMcCoy4-thumb.jpg" width="118" height="100"></a>
+<a href="images/JasonMcCoy1.jpg" class="fancybox" title="Jason McCoy's The Perfect Gift Advertisement" rel="Jason McCoy"><img src="images/JasonMcCoy1-thumb.jpg" width="118" height="100"></a>
+<a href="images/JasonMcCoy2.jpg" class="fancybox" title="Jason McCoy's The Perfect Gift Advertisement" rel="Jason McCoy"><img src="images/JasonMcCoy2-thumb.jpg" width="118" height="100"></a>
+<a href="images/JasonMcCoy3.jpg" class="fancybox" title="Jason McCoy's The Perfect Gift Advertisement" rel="Jason McCoy"><img src="images/JasonMcCoy3-thumb.jpg" width="118" height="100"></a>
+<a href="images/JasonMcCoy4.jpg" class="fancybox" title="Jason McCoy's The Perfect Gift Advertisement" rel="Jason McCoy"><img src="images/JasonMcCoy4-thumb.jpg" width="118" height="100"></a>
 </div></aside>
 </article>
 <div class="clear"></div>

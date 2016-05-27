@@ -9,9 +9,9 @@ tags: advertising
 <p>Two of the three headlines targeted doctors&mdash;appealing to their sense of duty or sense of humour&mdash;while the third targeted those who actually did the billing. The remaining copy was written to explain what ClinicAid was in less than five seconds.</p>
 </section>
 <aside><div class="left">
-<a href="{{ site.url }}/images/clinicAid.jpg" class="fancybox" title="Clinic Aid advertisement" rel="ClinicAid"><img src="{{ site.url }}/images/clinicAid-thumb.jpg" width="118" height="100"></a>
-<a href="{{ site.url }}/images/clinicAid2.jpg" class="fancybox" title="Clinic Aid advertisement" rel="ClinicAid"><img src="{{ site.url }}/images/clinicAid2-thumb.jpg" width="118" height="100"></a>
-<a href="{{ site.url }}/images/clinicAid3.jpg" class="fancybox" title="Clinic Aid advertisement" rel="ClinicAid"><img src="{{ site.url }}/images/clinicAid3-thumb.jpg" width="118" height="100"></a>
+<a href="images/clinicAid.jpg" class="fancybox" title="Clinic Aid advertisement" rel="ClinicAid"><img src="images/clinicAid-thumb.jpg" width="118" height="100"></a>
+<a href="images/clinicAid2.jpg" class="fancybox" title="Clinic Aid advertisement" rel="ClinicAid"><img src="images/clinicAid2-thumb.jpg" width="118" height="100"></a>
+<a href="images/clinicAid3.jpg" class="fancybox" title="Clinic Aid advertisement" rel="ClinicAid"><img src="images/clinicAid3-thumb.jpg" width="118" height="100"></a>
 </div></aside>
 </article>
 <div class="clear"></div>

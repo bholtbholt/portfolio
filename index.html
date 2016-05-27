@@ -7,7 +7,7 @@ layout: default
   {% assign tags = post.tags | join: ' ' %}
 
     <a href="#{{ post.id | split: "/" | last }}">
-      <div class="tags {{ tags }} " style="background:url( {{ site.url }}/images/{{ post.id | split: "/" | last }}-header.jpg )">
+      <div class="tags {{ tags }} " style="background:url( images/{{ post.id | split: "/" | last }}-header.jpg )">
         <div class=text>
           <p> {{ post.title }} </p>
           <p> {{ tags }} </p>
