@@ -1,5 +1,6 @@
 ---
 tags: advertising
+title: Wanstalls Hunting & Sporting Supplies
 ---
 
 <article>

@@ -1,5 +1,6 @@
 ---
 tags: advertising design
+title: Sights of Summer
 ---
 
 <article>

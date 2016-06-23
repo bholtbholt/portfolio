@@ -1,5 +1,6 @@
 ---
 tags: advertising design
+title: Becker & Company
 ---
 
 <article>
