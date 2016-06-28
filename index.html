@@ -6,7 +6,7 @@ layout: default
   {% for post in site.posts %}
   {% assign tags = post.tags | join: ' ' %}
 
-    <a href="#{{ post.id | split: "/" | last }}">
+    <a href="#{{ post.id | split: "/" | last }}-content" id="{{ post.id | split: "/" | last }}" class="js-load-content">
       <div class="tags {{ tags }} " style="background:url( images/{{ post.id | split: "/" | last }}-header.jpg )">
         <div class=text>
           <p> {{ post.title }} </p>
@@ -15,7 +15,11 @@ layout: default
       </div>
     </a>
 
-    <div class="content">
+  {% endfor %}
+
+  {% for post in site.posts %}
+
+    <div class="content hide" id="#{{ post.id | split: "/" | last }}-content">
       {{ post.content }}
     </div>
 
