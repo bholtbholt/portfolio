@@ -14,12 +14,12 @@ tags: advertising
 </section>
 <aside>
 <div class="left">
-<a href="images/HolidayGreetings1.jpg" class="fancybox" title="Holiday Greetings Cover" rel="Holiday Greetings"><img src="images/HolidayGreetings1-thumb.jpg" width="118" height="100"></a>
-<a href="images/HolidayGreetings6.jpg" class="fancybox" title="Fetch a Bone Holiday Advertisement" rel="Holiday Greetings"><img src="images/HolidayGreetings6-thumb.jpg" width="118" height="100"></a>
-<a href="images/HolidayGreetings5.jpg" class="fancybox" title="Fowle & Company Holiday Advertisement" rel="Holiday Greetings"><img src="images/HolidayGreetings5-thumb.jpg" width="118" height="100"></a>
-<a href="images/HolidayGreetings2.png" class="fancybox" title="Urban Eyewear Holiday Advertisement" rel="Holiday Greetings"><img src="images/HolidayGreetings2-thumb.png" width="118" height="100"></a>
-<a href="images/HolidayGreetings3.png" class="fancybox" title="Pyrgos Taverna Holiday Advertisement" rel="Holiday Greetings"><img src="images/HolidayGreetings3-thumb.png" width="118" height="100"></a>
-<a href="images/HolidayGreetings4.png" class="fancybox" title="Pyrgos Taverna New Year's Advertisement" rel="Holiday Greetings"><img src="images/HolidayGreetings4-thumb.png" width="118" height="100"></a>
+<a href="images/HolidayGreetings1.jpg" class="luminous" title="Holiday Greetings Cover" rel="Holiday Greetings"><img src="images/HolidayGreetings1-thumb.jpg" width="118" height="100"></a>
+<a href="images/HolidayGreetings6.jpg" class="luminous" title="Fetch a Bone Holiday Advertisement" rel="Holiday Greetings"><img src="images/HolidayGreetings6-thumb.jpg" width="118" height="100"></a>
+<a href="images/HolidayGreetings5.jpg" class="luminous" title="Fowle & Company Holiday Advertisement" rel="Holiday Greetings"><img src="images/HolidayGreetings5-thumb.jpg" width="118" height="100"></a>
+<a href="images/HolidayGreetings2.png" class="luminous" title="Urban Eyewear Holiday Advertisement" rel="Holiday Greetings"><img src="images/HolidayGreetings2-thumb.png" width="118" height="100"></a>
+<a href="images/HolidayGreetings3.png" class="luminous" title="Pyrgos Taverna Holiday Advertisement" rel="Holiday Greetings"><img src="images/HolidayGreetings3-thumb.png" width="118" height="100"></a>
+<a href="images/HolidayGreetings4.png" class="luminous" title="Pyrgos Taverna New Year's Advertisement" rel="Holiday Greetings"><img src="images/HolidayGreetings4-thumb.png" width="118" height="100"></a>
 </div></aside>
 </article>
 <div class="clear"></div>

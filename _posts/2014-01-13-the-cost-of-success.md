@@ -12,6 +12,6 @@ tags: art
 <p>The irony in the pursuit of success happened when, one day I realized I had been chasing pastimes in spite of goals for so long, that it had become the goal itself. I had begun to miss that blind, ambitious drive and its selfish ability to command my life. A sense of balance was obviously missing, but more so, a sense of purpose. Yet I still craved success, not fully knowing what that meant.</p>
 <p>Would I be doomed to repeat myself in cycles hoping to achieve something everlasting, like the tree cycles through the seasons shedding its leaves but eventually leaving its mark in the forest? Would I be the lone, remembered trunk or one of the countless, forgotten leaves?</p>
 </section>
-<aside><a href="images/CostOfSuccess.jpg" class="fancybox" title="The Cost of Success"><img src="images/CostOfSuccess-thumb.jpg" width="258" height="258"></a></aside>
+<aside><a href="images/CostOfSuccess.jpg" class="luminous" title="The Cost of Success"><img src="images/CostOfSuccess-thumb.jpg" width="258" height="258"></a></aside>
 </article>
 <div class="clear"></div>

@@ -17,12 +17,12 @@ tags: design development
 </section>
 <aside>
 	<div class="left">
-		<a href="images/experience-tectoria-1.jpg" class="fancybox" title="The animated SVG rocketship on experiencetectoria.ca" rel="ET"><img src="images/experience-tectoria-1-thumb.jpg" width="118" height="100"></a>
-		<a href="images/experience-tectoria-2.jpg" class="fancybox" title="Friday's schedule on experiencetectoria.ca" rel="ET"><img src="images/experience-tectoria-2-thumb.jpg" width="118" height="100"></a>
-		<a href="images/experience-tectoria-3.jpg" class="fancybox" title="Little moons orbiting the speakers" rel="ET"><img src="images/experience-tectoria-3-thumb.jpg" width="118" height="100"></a>
-		<a href="images/experience-tectoria-4.jpg" class="fancybox" title="Festival passes on experiencetectoria.ca" rel="ET"><img src="images/experience-tectoria-4-thumb.jpg" width="118" height="100"></a>
-		<a href="images/experience-tectoria-5.jpg" class="fancybox" title="That's no moon" rel="ET"><img src="images/experience-tectoria-5-thumb.jpg" width="118" height="100"></a>
-		<a href="images/experience-tectoria-6.jpg" class="fancybox" title="One last effect at experiencetectoria.ca" rel="ET"><img src="images/experience-tectoria-6-thumb.jpg" width="118" height="100"></a>
+		<a href="images/experience-tectoria-1.jpg" class="luminous" title="The animated SVG rocketship on experiencetectoria.ca" rel="ET"><img src="images/experience-tectoria-1-thumb.jpg" width="118" height="100"></a>
+		<a href="images/experience-tectoria-2.jpg" class="luminous" title="Friday's schedule on experiencetectoria.ca" rel="ET"><img src="images/experience-tectoria-2-thumb.jpg" width="118" height="100"></a>
+		<a href="images/experience-tectoria-3.jpg" class="luminous" title="Little moons orbiting the speakers" rel="ET"><img src="images/experience-tectoria-3-thumb.jpg" width="118" height="100"></a>
+		<a href="images/experience-tectoria-4.jpg" class="luminous" title="Festival passes on experiencetectoria.ca" rel="ET"><img src="images/experience-tectoria-4-thumb.jpg" width="118" height="100"></a>
+		<a href="images/experience-tectoria-5.jpg" class="luminous" title="That's no moon" rel="ET"><img src="images/experience-tectoria-5-thumb.jpg" width="118" height="100"></a>
+		<a href="images/experience-tectoria-6.jpg" class="luminous" title="One last effect at experiencetectoria.ca" rel="ET"><img src="images/experience-tectoria-6-thumb.jpg" width="118" height="100"></a>
 	</div>
 </aside>
 </article>

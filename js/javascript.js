@@ -57,3 +57,18 @@ for (var i = 0; i < portfolioItems.length; i++) {
   portfolioItems[i].addEventListener('click', loadContent, false);
 }
 
+///////////////////////////////////////////////////////////
+// Initialize Luminous
+///////////////////////////////////////////////////////////
+
+var luminousOptions = {
+  // Which attribute to pull the caption from, if any.
+  captionAttribute: 'title',
+};
+
+var luminousGalleryOpts = {
+  arrowNavigation: true,
+};
+
+new LuminousGallery(document.querySelectorAll('.luminous'), luminousGalleryOpts, luminousOptions);
+

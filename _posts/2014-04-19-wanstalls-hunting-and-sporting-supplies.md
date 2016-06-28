@@ -11,6 +11,6 @@ title: Wanstalls Hunting & Sporting Supplies
 <p>While flipping through photos of fresh kills made by the hunting community in Maple Ridge, I let my mind wander in order to come up with the ad copy. I noticed the hunters were all very proud of their prey, so I wanted to portray that in the headline. Like a cowboy ad. Or Texas Ranger. Or Highlander. Something with strength and attitude. Since it was 2012, my mind eventually went to zombies and survivalism and I came up with "If only the strong survive, then I'm sure glad I brought my M1A."</p>
 <p>A hunter armed with the industry-standard rifle would certainly be a good partner to last the zombie apocalypse. Although, as long as he didn't become a zombie, I think I’d side with Highlander.</p>
 </section>
-<aside><a href="images/Wanstalls.jpg" class="fancybox" title="Wanstalls Hunting & Sporting Supplies"><img src="images/Wanstalls-thumb.jpg" width="258" height="349"></a></aside>
+<aside><a href="images/Wanstalls.jpg" class="luminous" title="Wanstalls Hunting & Sporting Supplies"><img src="images/Wanstalls-thumb.jpg" width="258" height="349"></a></aside>
 </article>
 <div class="clear"></div>

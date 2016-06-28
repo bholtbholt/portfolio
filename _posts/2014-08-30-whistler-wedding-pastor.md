@@ -13,12 +13,12 @@ tags: design development
 </section>
 <aside>
 	<div class="left">
-		<a href="images/whistler-wedding-pastor-1.jpg" class="fancybox" title="Oooh typography!" rel="WWP"><img src="images/whistler-wedding-pastor-1-thumb.jpg" width="118" height="100"></a>
-		<a href="images/whistler-wedding-pastor-2.jpg" class="fancybox" title="A fine crafted photo gallery" rel="WWP"><img src="images/whistler-wedding-pastor-2-thumb.jpg" width="118" height="100"></a>
-		<a href="images/whistler-wedding-pastor-3.jpg" class="fancybox" title="A big informative contact form dressed up simply" rel="WWP"><img src="images/whistler-wedding-pastor-3-thumb.jpg" width="118" height="100"></a>
-		<a href="images/whistler-wedding-pastor-4.jpg" class="fancybox" title="Hi! I'm the Whistler Wedding Pastor" rel="WWP"><img src="images/whistler-wedding-pastor-4-thumb.jpg" width="118" height="100"></a>
-		<a href="images/whistler-wedding-pastor-5.jpg" class="fancybox" title="The blog on Whistler Wedding Pastor" rel="WWP"><img src="images/whistler-wedding-pastor-5-thumb.jpg" width="118" height="100"></a>
-		<a href="images/whistler-wedding-pastor-6.jpg" class="fancybox" title="Multiple backgrounds are so whimsical" rel="WWP"><img src="images/whistler-wedding-pastor-6-thumb.jpg" width="118" height="100"></a>
+		<a href="images/whistler-wedding-pastor-1.jpg" class="luminous" title="Oooh typography!" rel="WWP"><img src="images/whistler-wedding-pastor-1-thumb.jpg" width="118" height="100"></a>
+		<a href="images/whistler-wedding-pastor-2.jpg" class="luminous" title="A fine crafted photo gallery" rel="WWP"><img src="images/whistler-wedding-pastor-2-thumb.jpg" width="118" height="100"></a>
+		<a href="images/whistler-wedding-pastor-3.jpg" class="luminous" title="A big informative contact form dressed up simply" rel="WWP"><img src="images/whistler-wedding-pastor-3-thumb.jpg" width="118" height="100"></a>
+		<a href="images/whistler-wedding-pastor-4.jpg" class="luminous" title="Hi! I'm the Whistler Wedding Pastor" rel="WWP"><img src="images/whistler-wedding-pastor-4-thumb.jpg" width="118" height="100"></a>
+		<a href="images/whistler-wedding-pastor-5.jpg" class="luminous" title="The blog on Whistler Wedding Pastor" rel="WWP"><img src="images/whistler-wedding-pastor-5-thumb.jpg" width="118" height="100"></a>
+		<a href="images/whistler-wedding-pastor-6.jpg" class="luminous" title="Multiple backgrounds are so whimsical" rel="WWP"><img src="images/whistler-wedding-pastor-6-thumb.jpg" width="118" height="100"></a>
 	</div>
 </aside>
 </article>
