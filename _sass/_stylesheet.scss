@@ -209,28 +209,26 @@ $shadow: 0 2px 3px rgba(0,0,0,.4);
 ///////////////////////////////////////////////////////////
 
   .content {
-    padding-top: 0;
-    padding-bottom: 0;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height .6s ease-in,
-      padding-top .2s ease-in,
-      padding-bottom .6s ease-in;
-  }
-
-  .content.active {
     background-color: $white;
+    color: $grey;
+    font-size: 16px;
+
     margin: 10px;
     padding-right: 20px;
     padding-left: 20px;
     clear: both;
 
-    color: $grey;
-    font-size: 16px;
+    height: 0;
+    overflow: hidden;
 
+    transition: height .6s ease-in,
+      padding-top .6s ease-in,
+      padding-bottom .6s ease-in;
+  }
+
+  .content.active {
     padding-top: 20px;
     padding-bottom: 20px;
-    max-height: 900px;
   }
 
   .content h1 {

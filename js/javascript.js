@@ -1,26 +1,11 @@
 var portfolio = document.getElementById('js-portfolio');
 var portfolioItems = document.getElementsByClassName('js-load-content');
 var totalColumns = 3;
-var lastLoad;
+var lastLoad = '';
 
 ///////////////////////////////////////////////////////////
 // Functions
 ///////////////////////////////////////////////////////////
-
-function findPosition(object) {
-  // index needs to handle visibility
-  var linkPosition = index(object);
-  return linkPosition + (totalColumns - (linkPosition % totalColumns));
-}
-
-function insertContent(object) {
-  var contentElement = document.getElementById(object.getAttribute('href'));
-  var contentPosition = findPosition(object);
-  portfolio.insertBefore(contentElement, portfolio.children[contentPosition]);
-
-  // Add class name when line 19 is finished executing
-  contentElement.classList.add('active', 'js-active-content');
-}
 
 function index(element){
   var sib = element.parentNode.childNodes;
@@ -32,22 +17,51 @@ function index(element){
   return -1;
 }
 
-function clearContent(className) {
-  var content = document.getElementsByClassName(className);
-  if (content.length > 0) {
-    portfolio.appendChild(content[0]);
-    content[0].classList.remove(className, 'active');
-  }
+function findPosition(object) {
+  // index needs to handle visibility
+  var linkPosition = index(object);
+  return linkPosition + (totalColumns - (linkPosition % totalColumns));
+}
+
+function activateContent(object) {
+  object.classList.add('active');
+  object.setAttribute("style","height:" + object.scrollHeight + "px");
+}
+
+function deactivateContent(object) {
+  object.classList.remove('active');
+  object.removeAttribute('style');
+}
+
+function insertContent(object, callback) {
+  var contentElement = document.getElementById(object.getAttribute('href'));
+  var contentPosition = findPosition(object);
+  portfolio.insertBefore(contentElement, portfolio.children[contentPosition]);
+
+  callback(contentElement);
+}
+
+function clearContent(object) {
+  portfolio.appendChild(object);
+}
+
+function removeContent(object, callback) {
+  var content = document.getElementById(object);
+
+  deactivateContent(content);
+  callback(content);
 }
 
 function loadContent(e) {
   e.preventDefault();
 
-  clearContent('js-active-content');
+  if (lastLoad != '') {
+    removeContent(lastLoad, clearContent);
+  }
 
-  if (lastLoad != this.id) {
-    insertContent(this);
-    lastLoad = this.id;
+  if (lastLoad != this.getAttribute('href')) {
+    insertContent(this, activateContent);
+    lastLoad = this.getAttribute('href');
   } else {
     lastLoad = '';
   }
@@ -66,7 +80,6 @@ for (var i = 0; i < portfolioItems.length; i++) {
 ///////////////////////////////////////////////////////////
 
 var luminousOptions = {
-  // Which attribute to pull the caption from, if any.
   captionAttribute: 'title',
 };
 
