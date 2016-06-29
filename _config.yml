@@ -17,3 +17,5 @@ github_username:  bholtbholt
 
 # Build settings
 markdown: kramdown
+
+gems: [jekyll-autoprefixer]

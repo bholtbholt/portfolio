@@ -1,4 +1,4 @@
-var portfolio = document.getElementById('portfolio');
+var portfolio = document.getElementById('js-portfolio');
 var portfolioItems = document.getElementsByClassName('js-load-content');
 var totalColumns = 3;
 var lastLoad;
@@ -16,8 +16,10 @@ function findPosition(object) {
 function insertContent(object) {
   var contentElement = document.getElementById(object.getAttribute('href'));
   var contentPosition = findPosition(object);
-  contentElement.className += ' js-active-content';
   portfolio.insertBefore(contentElement, portfolio.children[contentPosition]);
+
+  // Add class name when line 19 is finished executing
+  contentElement.classList.add('active', 'js-active-content');
 }
 
 function index(element){
@@ -34,7 +36,7 @@ function clearContent(className) {
   var content = document.getElementsByClassName(className);
   if (content.length > 0) {
     portfolio.appendChild(content[0]);
-    content[0].classList.remove(className);
+    content[0].classList.remove(className, 'active');
   }
 }
 
@@ -46,6 +48,8 @@ function loadContent(e) {
   if (lastLoad != this.id) {
     insertContent(this);
     lastLoad = this.id;
+  } else {
+    lastLoad = '';
   }
 }
 

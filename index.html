@@ -2,24 +2,20 @@
 layout: default
 ---
 
-<div id="portfolio">
+<div id="js-portfolio" class="portfolio">
   {% for post in site.posts %}
   {% assign tags = post.tags | join: ' ' %}
 
-    <a href="#{{ post.id | split: "/" | last }}-content" id="{{ post.id | split: "/" | last }}" class="js-load-content">
-      <div class="tags {{ tags }} " style="background:url( images/{{ post.id | split: "/" | last }}-header.jpg )">
-        <div class=text>
-          <p> {{ post.title }} </p>
-          <p> {{ tags }} </p>
-        </div>
-      </div>
+    <a href="#{{ post.id | split: "/" | last }}-content" id="{{ post.id | split: "/" | last }}" class="portfolio-card js-load-content" style="background-image :url( images/{{ post.id | split: "/" | last }}-header.jpg )" data-tags="{{ tags }}">
+      <p class="title">{{ post.title }}</p>
+      <p class="tags">{{ tags }}</p>
     </a>
 
   {% endfor %}
 
   {% for post in site.posts %}
 
-    <div class="content hide" id="#{{ post.id | split: "/" | last }}-content">
+    <div class="content" id="#{{ post.id | split: "/" | last }}-content">
       {{ post.content }}
     </div>
 
