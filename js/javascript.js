@@ -66,6 +66,17 @@ function loadContent(e) {
   }
 }
 
+function toggleConnect(e) {
+  var content = document.getElementById('js-connect');
+  content.offsetHeight != 0 ? deactivateContent(content) : activateContent(content);
+}
+
+function setMailer(object) {
+  var prefix = object.getAttribute('data-prefix');
+  var domain = object.getAttribute('data-domain');
+  object.setAttribute('href', 'mailto:' + prefix + '@' + domain)
+}
+
 ///////////////////////////////////////////////////////////
 // Add click events to each portfolio piece
 ///////////////////////////////////////////////////////////
@@ -73,6 +84,11 @@ function loadContent(e) {
 for (var i = 0; i < portfolioItems.length; i++) {
   portfolioItems[i].addEventListener('click', loadContent, false);
 }
+
+document.getElementById('js-connect-button').addEventListener('click', toggleConnect, false);
+
+setMailer(document.getElementById('js-get-mail'));
+
 
 ///////////////////////////////////////////////////////////
 // Initialize Luminous

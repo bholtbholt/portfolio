@@ -114,16 +114,30 @@ $shadow: 0 2px 3px rgba(0,0,0,.4);
     letter-spacing: -4px;
     font-size: 160px;
     line-height: 1;
+    cursor: pointer;
   }
 
   .connect {
-    display: none;
     width: 934px;
     background: $white;
-    border-top: 6px solid $light-grey;
     color: $grey;
-    margin: 40px auto;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: 0 solid transparent;
+    margin: 0 auto;
+
+    height: 0;
+    overflow: hidden;
+
+    transition: height .3s ease-in,
+      border-top .3s ease-in;
+  }
+
+  .connect.active {
+    border-top: 6px solid $light-grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
 
   .filter {
