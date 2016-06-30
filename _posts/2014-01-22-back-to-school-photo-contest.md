@@ -16,4 +16,4 @@ title: Back to School
 <a href="images/BackToSchool1.jpg" class="luminous" title="Back to School Photo Contest" rel="Back to School Photo Contest"></a>
 <a href="images/BackToSchool3.gif" class="luminous" title="Back to School Photo Contest" rel="Back to School Photo Contest"></a></aside>
 </article>
-<div class="clear"></div>
+

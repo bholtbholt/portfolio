@@ -14,4 +14,4 @@ tags: design
     <a href="images/MyCommunity4.jpg" class="luminous" title="" rel="My Community"><img src="images/MyCommunity4-thumb.jpg" width="118" height="100"></a>
 </div></aside>
 </article>
-<div class="clear"></div>
+

@@ -28,4 +28,4 @@ title: Town & Country Floor Design
 <a href="images/TC4.jpeg" class="luminous" title="Town & Country Floor Design Advertisement" rel="Town & Country"><img src="images/TC4-thumb.jpg" width="258" height="115"></a>
 </aside>
 </article>
-<div class="clear"></div>
+

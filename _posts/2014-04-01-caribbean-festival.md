@@ -17,4 +17,4 @@ tags: advertising design
 <a href="images/CaribbeanFestivalLogo.png" class="luminous" title="Caribbean Festival Logo" rel="Caribbean Festival"></a>
 </aside>
 </article>
-<div class="clear"></div>
+

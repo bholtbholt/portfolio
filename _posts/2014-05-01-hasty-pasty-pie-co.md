@@ -14,4 +14,4 @@ tags: advertising design
 <a href="images/hastyPasty4.jpg" class="luminous" title="Hasty Pasty shelf topper" rel="HastyPasty"><img src="images/hastyPasty4-thumb.jpg" width="118" height="100"></a>
 </div></aside>
 </article>
-<div class="clear"></div>
+

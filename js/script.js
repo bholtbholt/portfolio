@@ -3,15 +3,15 @@ $(document).ready(function() {
 	var content = '.content';
 	var portfolio = '#portfolio > a';
 	var totalColumns;
-			
+
 	//filters divs according to what link is selected
 	$('#filter a').click(function(){
 		$('#filter a').css('color','');  //reset the navigation menu color, keeps hover intact
-		$(this).css('color', '#d1edff');  //change the selected item to a new color 
+		$(this).css('color', '#d1edff');  //change the selected item to a new color
 		var getClass = $(this).attr('name'); //get the filter via class
-		
+
 		if($(content).length) { $(content).slideUp(400, function(){ $(this).remove(); }); } //hides any active windows
-		
+
 		if(getClass){
 			$('.tags').not("." + getClass).slideUp(400, function() {  	 //hide all tags except selected tag
 				$("." + getClass).slideDown(400);   //show selected tag if already hidden
@@ -21,11 +21,11 @@ $(document).ready(function() {
 		} else {
 			$('.tags').slideDown(400); //show all
 		}
-		
+
 		$('body').animate({scrollTop: $('nav').position().top},1200); //scrolls to Navigation bar
-		
+
 	});
-	
+
 	if ($(window).width() > 954 ) {
 		totalColumns = 3; // how many columns
 	} else if ($(window).width() > 636 ) {
@@ -33,7 +33,15 @@ $(document).ready(function() {
 	} else {
 		totalColumns = 1;
 	}
-	
+
+if (document.width > 954 ) {
+  var totalColumns = 3;
+} else if (document.width > 636 ) {
+  var totalColumns = 2;
+} else {
+  var totalColumns = 1;
+}
+
 	//dynamically adds the div content
 	$(portfolio).click(function(event){
 		event.preventDefault(event);
@@ -41,7 +49,7 @@ $(document).ready(function() {
 		var elements = $(portfolio).children(':visible').length; //finds how many visible elements are in the portfolio
 		var getPosition = $(portfolio).children(':visible').index( $(this).children() );  //find the position of the div with respect to the filter (visibility)
 		var insert = getPosition + (totalColumns - (getPosition % totalColumns) - 1);
-		
+
 		//function for adding content div in the row below
 		var contentRow = function(event){
 			if(elements <= insert) {    //if there are less elements than a row
@@ -79,37 +87,37 @@ $(document).ready(function() {
 			contentRow();   //create a content div
 		}
 	});
-	
-	
-	
+
+
+
 	//Show or hide the Connect page
 	$('.connectButton').click(function(){
 		$('#connect').slideToggle(400, "easeOutSine");
 	});
-		
-		
-				
+
+
+
 	//Form submission
    	$("#submit").click(function(){
 	    var name = $("#name").val();
     	var email = $("#email").val();
     	var message = $("#message").val();
     	var postData = 'name='+ name + '&email=' + email + '&message=' + message;
-		
-		$.ajax({  
-			type: "POST",  
-			url: "PHP/form.php",  
-			data: postData,  
-			success: function() {  
-				$('#contact').html("<h3>Message Sent!</h3>")  
-				.append("<p>Thanks for the note. Talk soon.</p>");  
-			}  
-		});  
+
+		$.ajax({
+			type: "POST",
+			url: "PHP/form.php",
+			data: postData,
+			success: function() {
+				$('#contact').html("<h3>Message Sent!</h3>")
+				.append("<p>Thanks for the note. Talk soon.</p>");
+			}
+		});
 		return false;
-	}); 
-	
-	
+	});
+
+
 	//load Fancybox. Written by Jānis Skarnelis.
 	$(".fancybox").fancybox();
-	
+
 });

@@ -13,4 +13,4 @@ title: Sights of Summer
 <a href="images/SightsOfSummer3.gif" class="luminous" title="Sights of Summer Photo Contest" rel="Sights of Summer"></a>
 </aside>
 </article>
-<div class="clear"></div>
+

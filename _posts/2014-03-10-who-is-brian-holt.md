@@ -26,4 +26,4 @@ title: Who is Brian Holt?
     <a href="images/WhoIsBrianHolt13.jpg" class="luminous" title="Wondered more often than 'who is Heisenberg?'" rel="Who Is Brian Holt"><img src="images/WhoIsBrianHolt13-thumb.jpg" width="118" height="100"></a>
 </div></aside>
 </article>
-<div class="clear"></div>
+

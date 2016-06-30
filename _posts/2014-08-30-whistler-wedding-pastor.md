@@ -22,4 +22,4 @@ tags: design development
 	</div>
 </aside>
 </article>
-<div class="clear"></div>
+

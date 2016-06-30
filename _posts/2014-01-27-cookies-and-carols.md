@@ -12,4 +12,4 @@ title: Cookies & Carols
     <a href="images/Cookies&Carols3.jpg" class="luminous" title="" rel="Cookies & Carols"><img src="images/Cookies&Carols3-thumb.jpg" width="118" height="100"></a>
 </div>
 </article>
-<div class="clear"></div>
+

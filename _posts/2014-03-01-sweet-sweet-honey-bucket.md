@@ -16,4 +16,4 @@ tags: advertising design
 <a href="images/SSHB4.jpg" class="luminous" title="Sweet Sweet Honey Bucket Table Handbill" rel="SSHB"><img src="images/SSHB4-thumb.jpg" width="118" height="100"></a>
 </div></aside>
 </article>
-<div class="clear"></div>
+

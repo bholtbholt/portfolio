@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div id="js-portfolio" class="portfolio center-block">
+<div id="js-portfolio" class="portfolio center-block clearfix">
   {% for post in site.posts %}
   {% assign tags = post.tags | join: ' ' %}
 
@@ -15,7 +15,7 @@ layout: default
 
   {% for post in site.posts %}
 
-    <div class="content" id="#{{ post.id | split: "/" | last }}-content">
+    <div class="content clearfix" id="#{{ post.id | split: "/" | last }}-content">
       {{ post.content }}
     </div>
 

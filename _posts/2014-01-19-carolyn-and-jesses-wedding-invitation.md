@@ -11,4 +11,4 @@ published: false
 </section>
 <aside><a href="images/carolynJesse.png" class="luminous" title="Carolyn & Jesse's Wedding Invitation"><img src="images/carolynJesse-thumb.jpg" width="258" height="258"></a></aside>
 </article>
-<div class="clear"></div>
+

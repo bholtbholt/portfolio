@@ -12,4 +12,4 @@ tags: advertising
 </section>
 <aside><a href="images/CaddyShack.jpg" class="luminous" title="The New Caddy Shack Advertisement"><img src="images/CaddyShack-thumb.jpg" width="258" height="630"></a></aside>
 </article>
-<div class="clear"></div>
+

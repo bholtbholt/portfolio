@@ -14,4 +14,4 @@ tags: art
 </section>
 <aside><a href="images/CostOfSuccess.jpg" class="luminous" title="The Cost of Success"><img src="images/CostOfSuccess-thumb.jpg" width="258" height="258"></a></aside>
 </article>
-<div class="clear"></div>
+

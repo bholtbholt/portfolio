@@ -24,4 +24,4 @@ tags: advertising
     <a href="images/Posters16.jpg" class="luminous" rel="Concert Posters" title="Concert Poster"><img src="images/Posters16-thumb.jpg" width="132" height="132"></a>
 </div>
 </article>
-<div class="clear"></div>
+

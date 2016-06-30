@@ -14,4 +14,4 @@ tags: advertising
 <a href="images/clinicAid3.jpg" class="luminous" title="Clinic Aid advertisement" rel="ClinicAid"><img src="images/clinicAid3-thumb.jpg" width="118" height="100"></a>
 </div></aside>
 </article>
-<div class="clear"></div>
+

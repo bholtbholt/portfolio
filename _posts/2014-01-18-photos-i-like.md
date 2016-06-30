@@ -13,4 +13,4 @@ tags: photography
   {% endfor %}
 </div>
 </article>
-<div class="clear"></div>
+

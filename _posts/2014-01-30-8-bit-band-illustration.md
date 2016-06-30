@@ -10,4 +10,4 @@ tags: art
 </section>
 <aside><a href="images/8bitBand.png" class="luminous" title="8-Bit Band"><img src="images/8bitBand-thumb.png" width="258" height="258"></a></aside>
 </article>
-<div class="clear"></div>
+

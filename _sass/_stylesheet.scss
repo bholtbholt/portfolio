@@ -63,6 +63,10 @@ $shadow: 0 2px 3px rgba(0,0,0,.4);
 // Layout
 ///////////////////////////////////////////////////////////
 
+  body {
+    background: url('../images/background.png') fixed;
+  }
+
   header {
     background: $blue;
     box-shadow: $shadow;
@@ -70,12 +74,21 @@ $shadow: 0 2px 3px rgba(0,0,0,.4);
     border-bottom: 3px solid rgba(209,237,255,.8);
   }
 
-  .clear {
-    clear:both;
+  .clearfix {
+    clear: both;
+
+    &:before,
+    &:after {
+      content: ' ';
+      display: table;
+    }
+
+    &:after {
+      clear: both;
+    }
   }
 
   footer {
-    clear:both;
     min-height:100px;
   }
 
@@ -224,7 +237,6 @@ $shadow: 0 2px 3px rgba(0,0,0,.4);
 
     padding-right: 40px;
     padding-left: 40px;
-    clear: both;
 
     height: 0;
     overflow: hidden;

@@ -17,6 +17,6 @@ title: Becker & Company
    	<a href="images/Becker2.jpg" class="luminous" rel="Becker" title="Becker & Company TV Screen Advertisement"></a>
 </div></aside>
 </article>
-<div class="clear"></div>
+
 
 

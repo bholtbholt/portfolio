@@ -13,4 +13,4 @@ title: Wanstalls Hunting & Sporting Supplies
 </section>
 <aside><a href="images/Wanstalls.jpg" class="luminous" title="Wanstalls Hunting & Sporting Supplies"><img src="images/Wanstalls-thumb.jpg" width="258" height="349"></a></aside>
 </article>
-<div class="clear"></div>
+

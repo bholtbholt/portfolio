@@ -14,4 +14,4 @@ tags: art
 	<a href="images/GentleReminders6.jpg" class="luminous" rel="GentleReminders" title="It's Another Day"><img src="images/GentleReminders6-thumb.jpg" width="132" height="132"></a>
 </div>
 </article>
-<div class="clear"></div>
+

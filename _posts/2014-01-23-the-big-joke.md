@@ -10,4 +10,4 @@ tags: art
 </section>
 <aside><a href="images/ABigJoke.jpg" class="luminous" title="The Big Joke"><img src="images/ABigJoke-thumb.jpg" width="258" height="258"></a></aside>
 </article>
-<div class="clear"></div>
+

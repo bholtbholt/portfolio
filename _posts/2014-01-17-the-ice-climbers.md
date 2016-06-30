@@ -9,4 +9,4 @@ tags: art
 <p>I certainly need a reason to paint things, right? It'd be too senseless to paint two nearly identical faces on canvas just because I liked the sketch I drew. The story is important. Is art without meaning still art?</p></section>
 <aside><a href="images/IceClimbers.jpg" class="luminous" title="The Ice Climbers"><img src="images/IceClimbers-thumb.jpg" width="258" height="258"></a></aside>
 </article>
-<div class="clear"></div>
+

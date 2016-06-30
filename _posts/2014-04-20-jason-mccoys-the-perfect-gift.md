@@ -21,4 +21,4 @@ title: The Perfect Gift
 <a href="images/JasonMcCoy4.jpg" class="luminous" title="Jason McCoy's The Perfect Gift Advertisement" rel="Jason McCoy"><img src="images/JasonMcCoy4-thumb.jpg" width="118" height="100"></a>
 </div></aside>
 </article>
-<div class="clear"></div>
+

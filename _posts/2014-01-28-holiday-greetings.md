@@ -22,4 +22,4 @@ tags: advertising
 <a href="images/HolidayGreetings4.png" class="luminous" title="Pyrgos Taverna New Year's Advertisement" rel="Holiday Greetings"><img src="images/HolidayGreetings4-thumb.png" width="118" height="100"></a>
 </div></aside>
 </article>
-<div class="clear"></div>
+

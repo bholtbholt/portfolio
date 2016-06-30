@@ -54,4 +54,4 @@ tags: photography
     <a href="images/europe/IMG_1691.jpg" class="luminous" rel="Europe" title="Manchester, England"><img src="images/europe/IMG_1691-thumb.jpg" width="132" height="132"></a>
 </div>
 </article>
-<div class="clear"></div>
+

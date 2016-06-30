@@ -11,4 +11,4 @@ tags: art
 </section>
 <aside><a href="images/ButIReallyReallyLikeYou.jpg" class="luminous" title="But I Really, Really Like You"><img src="images/ButIReallyReallyLikeYou-thumb.jpg" width="258" height="258"></a></aside>
 </article>
-<div class="clear"></div>
+

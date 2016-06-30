@@ -11,4 +11,4 @@ title: StrangewaysMedia
 </section>
 <aside><a href="images/strangewaysMedia.png" class="luminous" title="53 Squares"><img src="images/strangewaysMedia-thumb.png" width="258" height="90"></a></aside>
 </article>
-<div class="clear"></div>
+
