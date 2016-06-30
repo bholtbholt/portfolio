@@ -29,8 +29,8 @@ function activateContent(object) {
 }
 
 function deactivateContent(object) {
-  object.classList.remove('active');
   object.removeAttribute('style');
+  object.classList.remove('active');
 }
 
 function insertContent(object, callback) {
@@ -41,22 +41,18 @@ function insertContent(object, callback) {
   callback(contentElement);
 }
 
-function clearContent(object) {
-  portfolio.appendChild(object);
-}
-
-function removeContent(object, callback) {
+function removeContent(object) {
   var content = document.getElementById(object);
 
   deactivateContent(content);
-  callback(content);
+  portfolio.appendChild(content);
 }
 
 function loadContent(e) {
   e.preventDefault();
 
   if (lastLoad != '') {
-    removeContent(lastLoad, clearContent);
+    removeContent(lastLoad);
   }
 
   if (lastLoad != this.getAttribute('href')) {
@@ -89,3 +85,13 @@ var luminousGalleryOpts = {
 
 new LuminousGallery(document.querySelectorAll('.luminous'), luminousGalleryOpts, luminousOptions);
 
+
+
+///////////////////////////////////////////////////////////
+// To do
+///////////////////////////////////////////////////////////
+
+// Scroll to event $('body').animate({scrollTop: $('nav').position().top},1200);
+// Filters
+// Responsive
+// Form submission

@@ -1,8 +1,8 @@
 $blue: #09f;
 $dark-blue: #003d71;
-$link-blue: #1c5690;
 $white: #fff;
 $grey: #333;
+$light-grey: #e5e5e5;
 $shadow: 0 2px 3px rgba(0,0,0,.4);
 
 ///////////////////////////////////////////////////////////
@@ -32,7 +32,7 @@ $shadow: 0 2px 3px rgba(0,0,0,.4);
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    line-height: 1.8;
+    line-height: 1.4;
   }
 
   article, aside, details, figcaption, figure,
@@ -65,16 +65,23 @@ $shadow: 0 2px 3px rgba(0,0,0,.4);
 
   header {
     background: $blue;
-    box-shadow:0 3px rgba(209,237,255,.8);
-    font-size:1.2em;
-    line-height:20px;
-    text-align:center;
-    text-transform:uppercase;
-    padding: 20px 0;
+    box-shadow: $shadow;
+    padding: 20px;
+    border-bottom: 3px solid rgba(209,237,255,.8);
   }
-  .portfolio { margin:20px auto; width:954px; }
-  .clear { clear:both; }
-  footer { clear:both; min-height:100px; }
+
+  .clear {
+    clear:both;
+  }
+
+  footer {
+    clear:both;
+    min-height:100px;
+  }
+
+  .center-block {
+    margin: 20px auto;
+  }
 
 
 
@@ -82,56 +89,53 @@ $shadow: 0 2px 3px rgba(0,0,0,.4);
 // Menu
 ///////////////////////////////////////////////////////////
 
-  #logo {
+  .logo,
+  .filter {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .logo {
     color: $dark-blue;
-    font-size: 3.4em;
-    line-height: .8em;
-    letter-spacing: -5px;
-    margin: 0;
+    letter-spacing: -4px;
+    font-size: 160px;
+    line-height: 1;
   }
-  #filter { display:none; }
-  nav ul, nav li {
-    list-style-type:none;
-    display:inline-block;
-    padding:0 8px;
+
+  .connect {
+    display: none;
+    width: 934px;
+    background: $white;
+    border-top: 6px solid $light-grey;
+    color: $grey;
+    margin: 40px auto;
+    padding: 20px;
   }
-  nav a {
-    color: $link-blue;
-    text-decoration:none;
-    -o-transition:color .2s ease-in;
-    -ms-transition:color .2s ease-in;
-    -moz-transition:color .2s ease-in;
-    -webkit-transition:color .2s ease-in;
-    transition:color .2s ease-in;
+
+  .filter {
+    display: none;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+
+  .filter li {
+    display: inline-block;
+  }
+
+  .filter a {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: $dark-blue;
     cursor: pointer;
-  }
-  nav a:hover { color:#fafafa; }
-  #connect {
-    background:#FFF;
-    border-top:6px solid #e5e5e5;
-    color:#333;
-    display:none;
-    font-size:16px;
-    line-height:1.35em;
-    margin:20px auto 0;
-    padding:20px;
-    text-align:left;
-    text-transform:none;
-    width:314px;
-  }
-  #connect a { color: $blue; text-decoration:none; }
-  #connect a:hover { color:#66ccff; }
-  .connectButton {
-    cursor: pointer;
-  }
-  #bio {
-    display:inline-block;
-  }
-  #contact {
-    border:1px solid #e5e5e5;
-    display:block;
-    margin-top:20px;
-    padding:5px;
+    transition: color .2s ease-in;
+
+    &:hover {
+      color: $white;
+    }
   }
 
 
@@ -139,6 +143,10 @@ $shadow: 0 2px 3px rgba(0,0,0,.4);
 ///////////////////////////////////////////////////////////
 // Portfolio Cards
 ///////////////////////////////////////////////////////////
+
+  .portfolio {
+    width: 954px;
+  }
 
   .portfolio-card {
     height: 186px;
@@ -183,6 +191,7 @@ $shadow: 0 2px 3px rgba(0,0,0,.4);
     opacity: 0;
     transition: opacity .2s ease-in;
     position: relative;
+    line-height: 1.4;
   }
 
   .portfolio-card:hover .title,
@@ -193,13 +202,13 @@ $shadow: 0 2px 3px rgba(0,0,0,.4);
   .portfolio-card .title {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 10px;
   }
 
   .portfolio-card .tags {
     font-size: 14px;
     text-transform: uppercase;
     word-spacing: 10px;
+    margin-bottom: 0;
   }
 
 
@@ -213,22 +222,20 @@ $shadow: 0 2px 3px rgba(0,0,0,.4);
     color: $grey;
     font-size: 16px;
 
-    margin: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
     clear: both;
 
     height: 0;
     overflow: hidden;
 
-    transition: height .6s ease-in,
-      padding-top .6s ease-in,
-      padding-bottom .6s ease-in;
+    transition: height .4s ease-in;
   }
 
   .content.active {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .content h1 {
@@ -236,6 +243,10 @@ $shadow: 0 2px 3px rgba(0,0,0,.4);
     font-size: 36px;
     font-weight: bold;
     line-height: 1.4;
+  }
+
+  .content p {
+    line-height: 1.8;
   }
 
   .content p:first-of-type {
