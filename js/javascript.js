@@ -7,6 +7,8 @@ var lastLoad = '';
 // Functions
 ///////////////////////////////////////////////////////////
 
+zenscroll.setup(null, 20);
+
 function index(element){
   var sib = element.parentNode.childNodes;
   var n = 0;
@@ -33,12 +35,12 @@ function deactivateContent(object) {
   object.classList.remove('active');
 }
 
-function insertContent(object, callback) {
+function insertContent(object, activateCallback) {
   var contentElement = document.getElementById(object.getAttribute('href'));
   var contentPosition = findPosition(object);
   portfolio.insertBefore(contentElement, portfolio.children[contentPosition]);
 
-  callback(contentElement);
+  activateCallback(contentElement);
 }
 
 function removeContent(object) {
@@ -58,6 +60,7 @@ function loadContent(e) {
   if (lastLoad != this.getAttribute('href')) {
     insertContent(this, activateContent);
     lastLoad = this.getAttribute('href');
+    zenscroll.to(this, 1200);
   } else {
     lastLoad = '';
   }
@@ -86,12 +89,10 @@ var luminousGalleryOpts = {
 new LuminousGallery(document.querySelectorAll('.luminous'), luminousGalleryOpts, luminousOptions);
 
 
-
 ///////////////////////////////////////////////////////////
 // To do
 ///////////////////////////////////////////////////////////
 
-// Scroll to event $('body').animate({scrollTop: $('nav').position().top},1200);
 // Filters
 // Responsive
 // Form submission
