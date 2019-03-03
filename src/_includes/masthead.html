@@ -1,0 +1,23 @@
+<nav class="masthead text-center headroom" data-behavior="headroom">
+  <a href="{{ site.url }}/"
+    class="masthead__link {% if page.active_tab == 'work' %}_active{% endif %}"
+    data-behavior="trigger-tab"
+    data-tab="work"
+    data-path="{{ site.url }}/"
+    data-title="{{ site.title }} | Work"
+  >Work</a>
+  <a href="{{ site.url }}/now"
+    class="masthead__link {% if page.active_tab == 'now' %}_active{% endif %}"
+    data-behavior="trigger-tab"
+    data-tab="now"
+    data-path="{{ site.url }}/now"
+    data-title="{{ site.title }} | Now"
+  >Now</a>
+  <a href="{{ site.url }}/contact"
+    class="masthead__link {% if page.active_tab == 'contact' %}_active{% endif %}"
+    data-behavior="trigger-tab"
+    data-tab="contact"
+    data-path="{{ site.url }}/contact"
+    data-title="{{ site.title }} | Contact"
+  >Contact</a>
+</nav>
