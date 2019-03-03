@@ -1,0 +1,17 @@
+.intro__title {
+  font-size: 40px;
+  line-height: 1;
+
+  @media (breakpoint('desktop')) {
+    font-size: 88px;
+  }
+}
+
+.intro__text {
+  font-weight: 300;
+  font-size: 16px;
+
+  @media (breakpoint('desktop')) {
+    font-size: 24px;
+  }
+}

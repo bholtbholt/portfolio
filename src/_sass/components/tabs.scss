@@ -1,0 +1,12 @@
+.tabs__content {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: opacity 300ms ease-out;
+}
+
+.tabs__content._active {
+  opacity: 1;
+  height: auto;
+  overflow: initial;
+}

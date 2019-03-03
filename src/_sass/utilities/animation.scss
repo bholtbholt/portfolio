@@ -1,0 +1,6 @@
+@for $i from 1 through 10 {
+  .animate-offset-#{$i} {
+    $offset: 500 * $i;
+    animation-delay: #{$offset}ms;
+  }
+}

@@ -1,0 +1,44 @@
+// Creates a loading indicator that can be placed on any background
+// Use: <div class="loading-dots"></div>
+.loading-dots {
+  $time: 1.5s;
+  $offset: $time / 5;
+  $base-color: var(--loading-dots-color-base);
+  $size: 10px;
+  $radius: 50%;
+
+  height: $size;
+  width: $size;
+  margin: ($size / 2) ($size * 3);
+  border-radius: $radius;
+  background-color: $base-color;
+  position: relative;
+  animation: load-glow $time infinite;
+  animation-delay: $offset * 2;
+
+  &:before,
+  &:after {
+    content: '';
+    background-color: $base-color;
+    height: $size;
+    width: $size;
+    border-radius: $radius;
+    position: absolute;
+  }
+
+  &:before {
+    left: -$size * 2;
+    animation: load-glow $time infinite;
+  }
+  &:after {
+    right: -$size * 2;
+    animation: load-glow $time infinite;
+    animation-delay: $offset * 3;
+  }
+}
+
+@keyframes load-glow {
+  50% {
+    background-color: var(--loading-dots-color-animate);
+  }
+}

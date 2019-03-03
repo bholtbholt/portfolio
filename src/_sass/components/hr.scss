@@ -1,0 +1,9 @@
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  margin: space('lg') 0;
+  border: 0;
+  width: 66.6%;
+  border-top: 1px solid var(--hr-color);
+}

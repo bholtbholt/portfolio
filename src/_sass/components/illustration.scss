@@ -1,0 +1,27 @@
+.illustration {
+  $margin: 5%;
+
+  position: absolute;
+  bottom: $margin;
+  right: $margin;
+  opacity: 0.1;
+  z-index: 0;
+
+  @media (orientation: landscape) {
+    height: calc(62vh);
+    max-height: calc(100% - (#{$margin} * 2));
+  }
+
+  @media (orientation: portrait) {
+    width: calc(66vw);
+    max-width: calc(100% - (#{$margin} * 2));
+  }
+}
+
+.illustration__fill {
+  fill: var(--font-light);
+}
+
+.illustration__stroke {
+  stroke: var(--font-light);
+}

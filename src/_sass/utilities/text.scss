@@ -1,0 +1,27 @@
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+@each $size in map-keys($font-sizes) {
+  .font-#{$size} {
+    font-size: font-size($size);
+  }
+}
+
+@each $color in map-keys($text-colors) {
+  .text-#{$color} {
+    color: text-color($color);
+  }
+}

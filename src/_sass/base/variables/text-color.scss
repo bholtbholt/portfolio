@@ -1,0 +1,14 @@
+$text-colors: (
+  'base': var(--font-base),
+  'light': var(--font-light),
+  'primary': var(--font-primary),
+);
+
+// Use: text-color('base')
+@function text-color($color) {
+  @if map-has-key($text-colors, $color) {
+    @return map-get($text-colors, $color);
+  } @else {
+    @error '`#{$color}` is an invalid argument in text-color() . Try: #{map-keys($text-colors)}.';
+  }
+}

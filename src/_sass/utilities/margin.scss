@@ -1,0 +1,16 @@
+// Bottom margins
+// Use: .mb-xs .mb-sm .mb-md .mb-lg .mb-xl
+@each $size in map-keys($spacing) {
+  .mb-#{$size} {
+    margin-bottom: space($size);
+  }
+}
+
+.mr-sm {
+  margin-right: space('sm');
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,16 @@
+$__shadow-box: 0.015em 0.06em 0.07em rgba(0, 0, 0, 0.3), 0.04em 0.15em 0.2em rgba(0, 0, 0, 0.15);
+$__shadow-text: 0.015em 0.03em 0.05em rgba(0, 0, 0, 0.3), 0.04em 0.08em 0.15em rgba(0, 0, 0, 0.15);
+
+$shadows: (
+  'box': $__shadow-box,
+  'text': $__shadow-text,
+);
+
+// Use: shadow('box')
+@function shadow($shadow) {
+  @if map-has-key($shadows, $shadow) {
+    @return map-get($shadows, $shadow);
+  } @else {
+    @error '`#{$shadow}` is an invalid argument in shadow() . Try: #{map-keys($shadows)}.';
+  }
+}

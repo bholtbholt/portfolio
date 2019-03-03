@@ -1,0 +1,252 @@
+/////////////////////////////////////////////////
+// Intro
+/////////////////////////////////////////////////
+
+.animate-wave {
+  stroke-dasharray: 364 304 134 534;
+  animation: wave 3s linear infinite reverse;
+}
+
+@keyframes wave {
+  0% {
+    stroke-dashoffset: 1335;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+/////////////////////////////////////////////////
+// CSS Tricks
+/////////////////////////////////////////////////
+
+.animate-grid {
+  animation: grid 8s infinite;
+}
+
+@keyframes grid {
+  0% {
+    opacity: 0;
+  }
+  25%,
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/////////////////////////////////////////////////
+// Skillshare
+/////////////////////////////////////////////////
+
+.animate-flicker {
+  animation: flicker 1500ms steps(3) infinite;
+}
+
+@keyframes flicker {
+  0%,
+  33% {
+    opacity: 0.5;
+  }
+  34%,
+  100% {
+    opacity: 0;
+  }
+}
+
+/////////////////////////////////////////////////
+// Golden Space
+/////////////////////////////////////////////////
+
+$space-animation: 2500ms alternate ease-in infinite;
+
+.animate-space-1 {
+  animation: space-first $space-animation;
+}
+
+@keyframes space-first {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(50px);
+  }
+}
+
+.animate-space-2 {
+  animation: space-second $space-animation;
+}
+
+@keyframes space-second {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+
+/////////////////////////////////////////////////
+// Serverless
+/////////////////////////////////////////////////
+
+.animate-sls-outline {
+  stroke-dasharray: 364 304 134 534;
+  animation: serverless 2s linear reverse infinite;
+}
+
+@keyframes serverless {
+  0% {
+    stroke-dashoffset: 1335;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+/////////////////////////////////////////////////
+// Magic Eight
+/////////////////////////////////////////////////
+
+.animate-eight-outline {
+  stroke-dasharray: 934;
+  stroke-dashoffset: 1868;
+  animation: eight-outline 12s linear infinite;
+}
+
+@keyframes eight-outline {
+  0% {
+    stroke-dashoffset: 2802;
+  }
+  25%,
+  74% {
+    stroke-dashoffset: 1868;
+  }
+  100% {
+    stroke-dashoffset: 934;
+  }
+}
+
+.animate-eight-triangle {
+  animation: eight-triangle 12s linear infinite;
+}
+
+@keyframes eight-triangle {
+  0%,
+  15% {
+    opacity: 0;
+  }
+  18%,
+  30%,
+  43%,
+  55%,
+  73%,
+  85% {
+    opacity: 1;
+  }
+  32%,
+  40%,
+  62%,
+  70% {
+    opacity: 0;
+  }
+  93%,
+  100% {
+    opacity: 0;
+  }
+}
+
+/////////////////////////////////////////////////
+// Component Library
+/////////////////////////////////////////////////
+
+.animate-shimmer {
+  animation: shimmer 2200ms steps(2) infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/////////////////////////////////////////////////
+// Elm Drum
+/////////////////////////////////////////////////
+
+.animate-sequencer {
+  animation: sequencer 4s steps(8) infinite;
+}
+
+@keyframes sequencer {
+  0% {
+    opacity: 1;
+  }
+  12%,
+  100% {
+    opacity: 0;
+  }
+}
+
+/////////////////////////////////////////////////
+// Jenny's Portfolio
+/////////////////////////////////////////////////
+
+.animate-cursor {
+  animation: blink 1500ms steps(1) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/////////////////////////////////////////////////
+// Start Up Color
+/////////////////////////////////////////////////
+
+.animate-paint {
+  stroke-dasharray: 4304;
+  animation: paint 5s linear alternate infinite;
+}
+
+@keyframes paint {
+  0% {
+    stroke-dashoffset: 4304;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-paint-brush {
+  animation: paint-brush 5s linear alternate infinite;
+  transform-origin: 180px 880px;
+}
+
+@keyframes paint-brush {
+  0% {
+    transform: translate(0, 0);
+  }
+  15% {
+    transform: translate(0, -600px) rotate(-18deg);
+  }
+  44% {
+    transform: translate(750px, 500px) rotate(-18deg);
+  }
+  75% {
+    transform: translate(360px, -780px) rotate(-27deg);
+  }
+  100% {
+    transform: translate(1010px, 60px) rotate(-38deg);
+  }
+}
