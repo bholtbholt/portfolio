@@ -1,0 +1,19 @@
+<article id="{{ include.post.slug }}" class="post _{{ include.post.bg_color }} scroll-align-start flex flex-vertical justify-center">
+  <div class="post__container mx-auto">
+    <h1 class="text-primary shadow-text">{{ include.post.title }}</h1>
+
+    <ul class="list-inline font-sm mb-lg text-light">
+      <li class="mr-sm">
+        <strong class="text-capitalize">{{ include.post.categories }}</strong> published on <a href="{{ include.post.published_url }}" target="_blank">{{ include.post.publisher }}</a>, {{ include.post.date | date_to_long_string }}
+      </li>
+
+      {% for tag in include.post.tags %}
+        <li class="font-xs">{{ tag }}</li>
+      {% endfor %}
+    </ul>
+
+    {{ include.post.content }}
+
+    <p><a href="{{ include.post.published_url }}" target="_blank">{{ include.post.jump_line }}…</a></p>
+  </div>
+</article>

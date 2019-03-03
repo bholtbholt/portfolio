@@ -1,0 +1,46 @@
+:root {
+  // Space Base Size
+  --mobile-space-size: 14px;
+  --desktop-space-size: 18px;
+
+  // Space Variations
+  --space-xs: 0.25rem;
+  --space-sm: 0.625rem;
+  --space-md: 1rem;
+  --space-lg: 1.325rem;
+  --space-xl: 4.245rem;
+
+  // Mobile Font Variations
+  --font-xs: 10px;
+  --font-sm: 12px;
+  --font-md: 14px;
+  --font-lg: 18px;
+  --font-xl: 20px;
+
+  // Font Colors
+  --font-base: hsl(186, 85%, 98%);
+  --font-light: hsl(180, 100%, 96%);
+  --font-primary: hsl(0, 100%, 100%);
+
+  font-size: var(--mobile-space-size);
+
+  @media (breakpoint('desktop')) {
+    font-size: var(--desktop-space-size);
+
+    // Desktop Font Variations
+    --font-xs: 14px;
+    --font-sm: 16px;
+    --font-md: 22px;
+    --font-lg: 24px;
+    --font-xl: 46px;
+  }
+}
+
+html {
+  line-height: 1.6;
+  background-color: hsl(186, 80%, 8%);
+}
+
+body {
+  font-size: font-size('md');
+}

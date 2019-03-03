@@ -1,0 +1,14 @@
+$breakpoints: (
+  'mobile-only': 'max-width: 767px',
+  'desktop': 'min-width: 768px',
+  'wide': 'min-width: 992px'
+);
+
+// Use: breakpoint('mobile-only')
+@function breakpoint($size) {
+  @if map-has-key($breakpoints, $size) {
+    @return map-get($breakpoints, $size);
+  } @else {
+    @error '`#{$size}` is an invalid argument in breakpoint() . Try: #{map-keys($breakpoints)}.';
+  }
+}

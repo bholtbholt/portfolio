@@ -1,0 +1,31 @@
+$masthead-text-color: rgba(255, 255, 255, 0.7);
+$masthead-border-color: rgba(255, 255, 255, 0.5);
+$masthead-active-color: #fff;
+
+.masthead {
+  border-top: var(--space-xs) solid $masthead-border-color;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.masthead__link {
+  display: inline-block;
+  padding: var(--space-sm) var(--space-md);
+  color: $masthead-text-color;
+  text-decoration: none;
+  margin-top: calc(var(--space-xs) * -1);
+  border-top: var(--space-xs) solid transparent;
+  transition: color 200ms ease-in;
+
+  &:hover,
+  &:focus {
+    color: hsl(0, 100%, 100%);
+  }
+}
+
+.masthead__link._active {
+  color: $masthead-active-color;
+  border-top: var(--space-xs) solid $masthead-active-color;
+}

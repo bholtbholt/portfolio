@@ -1,0 +1,9 @@
+@media (min-height: 375px) {
+  .scroll-snap {
+    scroll-snap-type: y mandatory;
+  }
+
+  .scroll-align-start {
+    scroll-snap-align: start;
+  }
+}

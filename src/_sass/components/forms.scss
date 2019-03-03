@@ -1,0 +1,93 @@
+$border-radius: 0.38em;
+
+label {
+  display: block;
+}
+
+.form-control {
+  border-radius: $border-radius;
+  padding: space('sm');
+  border: none;
+  width: 100%;
+  color: var(--form-text-color);
+  background-color: var(--form-bg-color);
+  box-shadow: var(--form-inset-shadow);
+  transition: box-shadow 120ms ease-in;
+
+  &:focus {
+    outline: 0;
+    box-shadow: var(--form-outline-focus);
+  }
+}
+
+textarea.form-control {
+  height: 5em;
+  resize: vertical;
+}
+
+button[disabled] {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  text-align: center;
+  white-space: nowrap;
+
+  border-radius: $border-radius;
+  padding: space('sm') space('md');
+  cursor: pointer;
+
+  background-color: var(--btn-bg-color);
+  color: var(--form-text-color);
+  border: none;
+  box-shadow: var(--btn-shadow);
+
+  &:hover:not([disabled]),
+  &:focus {
+    background-color: var(--btn-bg-color-focus);
+    outline: 0;
+  }
+
+  &:active {
+    background-color: var(--btn-bg-color-active);
+    box-shadow: var(--btn-shadow-active);
+    transform: translateY(0.1rem);
+  }
+}
+
+.form-response {
+  border-radius: $border-radius;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 0.2s ease-in, opacity 0.2s ease-in;
+  padding: space('sm');
+}
+
+.form-response._success {
+  background-color: var(--form-success-color);
+  color: var(--form-success-text);
+}
+
+.form-response._warning {
+  background-color: var(--form-warning-color);
+  color: var(--form-warning-text);
+}
+
+.form-response._slide-in {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.form-response._fade-out {
+  animation: fade-out 8s forwards;
+}
+
+@keyframes fade-out {
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

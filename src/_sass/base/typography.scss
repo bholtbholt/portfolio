@@ -1,0 +1,33 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-size: font-size('xl');
+  margin-bottom: space('sm');
+  font-weight: 900;
+  line-height: 1.15;
+}
+
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+p {
+  margin-bottom: space('md');
+
+  &:last-of-type {
+    margin-bottom: initial;
+  }
+}

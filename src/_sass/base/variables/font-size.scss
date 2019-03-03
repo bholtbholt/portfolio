@@ -1,0 +1,15 @@
+$font-sizes: (
+  'xs': var(--font-xs),
+  'sm': var(--font-sm),
+  'md': var(--font-md),
+  'lg': var(--font-lg),
+  'xl': var(--font-xl),
+);
+
+@function font-size($font-size) {
+  @if map-has-key($font-sizes, $font-size) {
+    @return map-get($font-sizes, $font-size);
+  } @else {
+    @error '`#{$font-size}` is an invalid argument in font-size() . Try: #{map-keys($font-sizes)}.';
+  }
+}

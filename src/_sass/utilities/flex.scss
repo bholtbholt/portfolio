@@ -1,0 +1,36 @@
+.flex {
+  display: flex;
+}
+
+.flex > *,
+.flex-desktop > * {
+  min-width: 0;
+}
+
+.flex-vertical {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+@media (breakpoint('desktop')) {
+  .flex-desktop {
+    display: flex;
+  }
+
+  .col {
+    flex: 1 1;
+    margin-left: space('md');
+    margin-right: space('md');
+
+    &:first-of-type {
+      margin-left: initial;
+    }
+
+    &:last-of-type {
+      margin-right: initial;
+    }
+  }
+}

@@ -1,21 +1,31 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
 title: Portfolio | brianholt.ca
 email: bholtbholt@icloud
 description: >
-  The portfolio of Brian Holt: award-winning graphic designer, web developer, artist, musician, and living person.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://brianholt.ca" # the base hostname & protocol for your site
-twitter_username: bholtbholt
-github_username:  bholtbholt
+  Brian Holt is a front-end developer living in Vancouver, Canada, focused on scalable design systems. His background includes working on large Ruby on Rails apps with React + Redux front-ends and teaching User Experience design. Currently, he’s infatuated with Elm and functional programming, TypeScript, and Serverless. And he’s always in search of tacos and bourbon sours.
+url: https://www.brianholt.ca
+twitter: https://twitter.com/BHOLTBHOLT
+github: https://github.com/bholtbholt
+medium: https://medium.com/@bholtbholt
+linkedin: https://linkedin.com/in/bholtbholt
 
-# Build settings
-markdown: kramdown
+form:
+  action: https://2vauwh7ky0.execute-api.us-east-1.amazonaws.com/dev/static-site-mailer
+  ses_email: staticsitecontactform@gmail.com
+  send_to_email: bholtbholt@icloud.com
 
-gems: [jekyll-autoprefixer]
+source: src
+port: 3000
+
+sass:
+  style: compressed
+
+collections:
+  - now
+
+permalink: /:categories/:title/
+
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: post
