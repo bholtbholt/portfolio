@@ -8,4 +8,4 @@ categories: article
 bg_color: drum
 ---
 
-After completing a handful of projects in <a href="https://elm-lang.org" target="_blank">Elm</a>, I was hooked and wanted to share something fun with people who hadn't yet tried it. In this two-part series, I walk through the steps I took to create <a href="https://bholtbholt.github.io/step-sequencer/" target="_blank">this drum sequencer</a>. Readers are introduced to Elm's syntax, setup, and core concepts, then complier-driven refactors, side-effects, and communication with JavaScript.
+After completing a handful of projects in <a href="https://elm-lang.org" target="_blank">Elm</a>, I was hooked and wanted to share something fun with people who hadn't yet tried it. In this two-part series, I walk through the steps to create <a href="https://bholtbholt.github.io/step-sequencer/" target="_blank">this drum sequencer</a>. Readers are introduced to Elm's syntax, setup, and core concepts, then complier-driven refactors, side-effects, and communication with JavaScript.
