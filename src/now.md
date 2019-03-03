@@ -1,4 +1,4 @@
 ---
 layout: default
-active_tab: about
+active_tab: now
 ---
