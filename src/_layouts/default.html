@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="scroll-snap">
+
+    {% include masthead.html %}
+
+    <div id="work"
+      data-behavior="tab"
+      class="tabs__content {% if page.active_tab == 'work' %}_active{% endif %}">
+      {% include intro.html %}
+
+      {% for post in site.posts %}
+        {% include post.html post=post %}
+      {% endfor %}
+    </div>
+
+    {% include now.html %}
+
+    {% include contact.html %}
+
+    {% include footer.html %}
+  </body>
+</html>

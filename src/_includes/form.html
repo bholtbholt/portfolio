@@ -1,0 +1,24 @@
+<form id="js-submit-contact-form" action="{{site.form.action}}" method="POST" class="mb-lg">
+  <input type="hidden" name="ses_address" value="{{site.form.ses_email}}" />
+  <input type="hidden" name="send_to" value="{{site.form.send_to_email}}" />
+  <input type="hidden" name="subject" value="[{{site.title}}]: New message!" />
+  <input type="input" name="honeypot" value="" style="display: none" tabindex="-1" autocomplete="off">
+
+  <div class="flex-desktop">
+    <div class="col mb-lg">
+      <label for="name" class="font-sm text-uppercase mb-xs">Your name:</label>
+      <input id="name" type="text" name="name" class="form-control" required>
+    </div>
+
+    <div class="col mb-lg">
+      <label for="email" class="font-sm text-uppercase mb-xs">Your email:</label>
+      <input id="email" type="email" name="reply_to" class="form-control" required>
+    </div>
+  </div>
+
+  <label for="message" class="font-sm text-uppercase mb-xs">Your message:</label>
+  <textarea id="message" name="message" class="form-control mb-lg" required></textarea>
+
+  <button type="submit" class="btn-primary" data-label="Send Message">Send Message</button>
+</form>
+<p id="js-form-response" class="form-response shadow"></p>
