@@ -16,9 +16,6 @@ form:
 source: src
 port: 3000
 
-sass:
-  style: compressed
-
 collections:
   - now
 
