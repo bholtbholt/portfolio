@@ -10,7 +10,7 @@ bg_color: jenny
 
 My wife, Jenny, a freelance writer and editor, needed a portfolio. Naturally, I put a site together to showcase her work.
 
-With strong typography, I focused on putting her writing front and centre. I used <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> to generate the static site, made it really fast by turning it into a sort of pseudo-single page app using the <a href="https://developer.mozilla.org/en-US/docs/Web/API/History" target="_blank">browser's history state</a>, and created a <a href="https://github.com/bholtbholt/static-site-mailer" target="_blank">Serverless Contact Form</a> for clients to reach her.
+With strong typography, I focused on putting her writing front and centre. I used <a href="https://jekyllrb.com/" target="_blank" rel="noreferrer">Jekyll</a> to generate the static site, made it really fast by turning it into a sort of pseudo-single page app using the <a href="https://developer.mozilla.org/en-US/docs/Web/API/History" target="_blank" rel="noreferrer">browser's history state</a>, and created a <a href="https://github.com/bholtbholt/static-site-mailer" target="_blank" rel="noreferrer">Serverless Contact Form</a> for clients to reach her.
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" class="illustration">
   <g class="illustration__fill animate-cursor" fill-rule="evenodd">

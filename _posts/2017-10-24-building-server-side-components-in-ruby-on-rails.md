@@ -8,9 +8,9 @@ tags: [Ruby on Rails]
 bg_color: components
 ---
 
-To help back-end developers on my team release user interfaces faster, I created a reusable component library in <a href="https://rubyonrails.org" target="_blank">Ruby on Rails</a>, influenced by <a href="https://reactjs.org" target="_blank">React</a>. Rather than worrying about CSS, they call components with a Rails helper, pass in its props, and have it styled appropriately.
+To help back-end developers on my team release user interfaces faster, I created a reusable component library in <a href="https://rubyonrails.org" target="_blank" rel="noreferrer">Ruby on Rails</a>, influenced by <a href="https://reactjs.org" target="_blank" rel="noreferrer">React</a>. Rather than worrying about CSS, they call components with a Rails helper, pass in its props, and have it styled appropriately.
 
-A year later I gave a Lightning Talk at the <a href="http://vanruby.org" target="_blank">Van Ruby Meetup</a> to share the concept since it was working so well.
+A year later I gave a Lightning Talk at the <a href="http://vanruby.org" target="_blank" rel="noreferrer">Van Ruby Meetup</a> to share the concept since it was working so well.
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 974" class="illustration">
   <path class="illustration__fill animate-shimmer opacity-50 animate-offset-1" d="M699.6 738.1L907.9 923 498 890.8c80.3-48.5 146.6-106.5 196.2-152.6.8.2 1.7.2 2.6.2.9.1 1.8-.1 2.8-.3zm230.6 110.5L968.6 346c-19 48.5-49 105-87.9 165.3l49.5 337.3zM713.5 726.7l207.9 184.5-55.5-377.5c-45.8 68-100.7 137.6-152.4 193z"/>

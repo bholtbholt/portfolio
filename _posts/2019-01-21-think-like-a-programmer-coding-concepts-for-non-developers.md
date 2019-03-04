@@ -8,7 +8,7 @@ categories: class
 bg_color: skillshare
 ---
 
-_Think Like a Programmer_ is a 30-minute course I created with the <a href="https://www.skillshare.com/" target="_blank">Skillshare</a> expansion team to help designers, marketers, and product managers work better with developers. Students learn ways to apply high-level programming concepts to their job and gain insights into how developers approach problems.
+_Think Like a Programmer_ is a 30-minute course I created with the <a href="https://www.skillshare.com/" target="_blank" rel="noreferrer">Skillshare</a> expansion team to help designers, marketers, and product managers work better with developers. Students learn ways to apply high-level programming concepts to their job and gain insights into how developers approach problems.
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 243 174" class="illustration">
   <defs>

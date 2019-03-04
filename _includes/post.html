@@ -4,7 +4,7 @@
 
     <ul class="list-inline font-sm mb-lg text-light">
       <li class="mr-sm">
-        <strong class="text-capitalize">{{ include.post.categories }}</strong> published on <a href="{{ include.post.published_url }}" target="_blank">{{ include.post.publisher }}</a>, {{ include.post.date | date_to_long_string }}
+        <strong class="text-capitalize">{{ include.post.categories }}</strong> published on <a href="{{ include.post.published_url }}" target="_blank" rel="noreferrer">{{ include.post.publisher }}</a>, {{ include.post.date | date_to_long_string }}
       </li>
 
       {% for tag in include.post.tags %}
@@ -14,6 +14,6 @@
 
     {{ include.post.content }}
 
-    <p><a href="{{ include.post.published_url }}" target="_blank">{{ include.post.jump_line }}…</a></p>
+    <p><a href="{{ include.post.published_url }}" target="_blank" rel="noreferrer">{{ include.post.jump_line }}…</a></p>
   </div>
 </article>
