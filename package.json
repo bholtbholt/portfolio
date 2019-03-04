@@ -4,14 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "bundle exec jekyll serve & parcel watch assets/css/index.scss --out-dir css",
-    "build-css": "parcel build assets/css/index.scss --out-dir css",
-    "parcel": "node_modules/.bin/parcel"
+    "start": "bundle exec jekyll serve"
   },
   "devDependencies": {
-    "autoprefixer": "^9.4.9",
-    "parcel-bundler": "^1.11.0",
-    "prettier": "^1.16.4",
-    "sass": "^1.17.2"
+    "prettier": "^1.16.4"
   }
 }
