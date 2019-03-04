@@ -14,6 +14,17 @@ form:
   send_to_email: bholtbholt@icloud.com
 
 port: 3000
+exclude:
+  [
+    'assets',
+    'Gemfile',
+    'Gemfile.lock',
+    'node_modules',
+    'vendor/bundle/',
+    'vendor/cache/',
+    'vendor/gems/',
+    'vendor/ruby/',
+  ]
 
 collections:
   - now
