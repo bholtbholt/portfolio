@@ -1,7 +1,7 @@
 ---
 published_url: https://bholtbholt.github.io/startup-color/
 publisher: Github
-jump_line: Check out the project on Github
+jump_line: Get your start-up's colour on Github
 categories: project
 tags: Elm Sass Jekyll
 bg_color: startup-color
