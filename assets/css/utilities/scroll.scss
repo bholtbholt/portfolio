@@ -1,4 +1,4 @@
-@media (min-height: 375px) {
+@media (breakpoint('desktop')) {
   .scroll-snap {
     scroll-snap-type: y mandatory;
   }
