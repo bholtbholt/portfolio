@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "bundle exec jekyll serve & parcel watch assets/css/index.scss --out-dir src/css",
-    "build-css": "parcel build assets/css/index.scss --out-dir src/css",
+    "start": "bundle exec jekyll serve & parcel watch assets/css/index.scss --out-dir css",
+    "build-css": "parcel build assets/css/index.scss --out-dir css",
     "parcel": "node_modules/.bin/parcel"
   },
   "devDependencies": {
