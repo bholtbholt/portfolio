@@ -13,7 +13,6 @@ form:
   ses_email: staticsitecontactform@gmail.com
   send_to_email: bholtbholt@icloud.com
 
-source: src
 port: 3000
 
 collections:
