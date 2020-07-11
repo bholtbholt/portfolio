@@ -1,8 +1,11 @@
 .post {
   color: text-color('base');
   padding: space('xl') space('md');
-  min-height: 100vh;
   position: relative;
+
+  @media (breakpoint('desktop')) {
+    min-height: 100vh;
+  }
 }
 
 .post a {

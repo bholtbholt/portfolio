@@ -1,7 +1,9 @@
-.scroll-snap {
-  scroll-snap-type: y mandatory;
-}
+@media (breakpoint('desktop')) {
+  .scroll-snap {
+    scroll-snap-type: y mandatory;
+  }
 
-.scroll-align-start {
-  scroll-snap-align: start;
+  .scroll-align-start {
+    scroll-snap-align: start;
+  }
 }
