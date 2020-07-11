@@ -17,6 +17,29 @@
 }
 
 /////////////////////////////////////////////////
+// Replacing Framework with Bootstrap
+/////////////////////////////////////////////////
+
+.animate-puff {
+  animation: puff-in-center 6s cubic-bezier(0.47, 0, 0.745, 0.715) infinite alternate both;
+}
+
+@keyframes puff-in-center {
+  40% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+  50% {
+    filter: blur(4px);
+    opacity: 0;
+  }
+  60% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+/////////////////////////////////////////////////
 // CSS Tricks
 /////////////////////////////////////////////////
 
