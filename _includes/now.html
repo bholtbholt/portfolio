@@ -1,11 +1,42 @@
-<div id="now"
+<div
+  id="now"
   data-behavior="tab"
-  class="tabs__content {% if page.active_tab == 'now' %}_active{% endif %}">
+  class="tabs__content {% if page.active_tab == 'now' %}_active{% endif %}"
+>
   <div class="post _now flex flex-vertical justify-center">
     <div class="post__container mx-auto">
-      <h1 class="text-primary shadow-text">What is he up to <a href="https://nownownow.com/about" target="_blank" rel="noreferrer" class="text-decoration-none">now</a>? 👨🏻‍💻</h1>
-      <p>J'habite à Nice avec ma femme et notre chatte, Père. Sometimes I play like seven instruments, or Breath of the Wild on Switch. I like making pretentious cocktails and drinking them with pretentious people.</p>
-      <p>I build new products and define the front-end methodology at <a href="https://www.retailzipline.com" target="_blank" rel="noreferrer">Retail Zipline</a> while working remotely. On the side, I play with Elm, TypeScript, and Serverless.</p>
+      <h1 class="text-primary shadow-text">
+        What is he up to
+        <a
+          href="https://nownownow.com/about"
+          target="_blank"
+          rel="noreferrer"
+          class="text-decoration-none"
+          >now</a
+        >? 👨🏻‍💻
+      </h1>
+      <p>
+        J'habite à Nice avec ma femme et notre chatte, Père. Sometimes I play like seven
+        instruments, or Breath of the Wild on Switch. I like making pretentious cocktails and
+        drinking them with pretentious people.
+      </p>
+      <p>
+        I work remotely at
+        <a href="https://www.retailzipline.com" target="_blank" rel="noreferrer">Retail Zipline</a>,
+        mostly building products used by tens of thousands of people daily.
+      </p>
+      <p>
+        Previously, I worked as a designer for a decade and have begun writing a kind-of
+        <em>training wheels for design</em> book. It's still in the outline stage, but
+        <a
+          href="{{ site.url }}/contact"
+          data-behavior="trigger-tab"
+          data-tab="contact"
+          data-title="{{ site.title }} | Contact"
+          >get in touch</a
+        >
+        if you wanna chat about it!
+      </p>
     </div>
   </div>
 </div>
