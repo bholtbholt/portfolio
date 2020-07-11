@@ -6,7 +6,7 @@
 // Tab Trigger elements expect
 // [data-behavior~="trigger-tab"]: the trigger to bind
 // data-tab: id of the tab to make active
-// data-path: the path to push to history.state
+// href: the path to push to history.state
 // data-title: the title of the path
 // class: '_active' will be applied to active trigger
 
@@ -20,25 +20,28 @@
   const tabTriggers = Array.from(document.querySelectorAll('[data-behavior~="trigger-tab"]'));
 
   function updateUrl(trigger) {
-    const newPath = trigger.getAttribute('data-path');
+    const newPath = trigger.getAttribute('href');
     const pageTitle = trigger.getAttribute('data-title');
 
     window.history.pushState(newPath, pageTitle, newPath);
   }
 
-  function activateTrigger(targetTrigger) {
-    const activatingTrigger = tabTriggers.filter(trigger => trigger === targetTrigger)[0];
+  function activateMastheadTrigger(targetTrigger) {
+    const targetUrl = targetTrigger.href;
+    const activatingTrigger = tabTriggers.find(
+      (trigger) => trigger.href === targetUrl && trigger.classList.contains('masthead__link'),
+    );
     activatingTrigger.classList.add('_active');
   }
 
   function activateTab(targetTab) {
-    const activatingTab = tabs.filter(tab => tab.id === targetTab)[0];
+    const activatingTab = tabs.find((tab) => tab.id === targetTab);
     activatingTab.classList.add('_active');
   }
 
   function resetTabs() {
-    tabs.forEach(tab => tab.classList.remove('_active'));
-    tabTriggers.forEach(trigger => trigger.classList.remove('_active'));
+    tabs.forEach((tab) => tab.classList.remove('_active'));
+    tabTriggers.forEach((trigger) => trigger.classList.remove('_active'));
   }
 
   function toggleActiveTab(e) {
@@ -48,10 +51,10 @@
 
     resetTabs();
     activateTab(targetTab);
-    activateTrigger(trigger);
+    activateMastheadTrigger(trigger);
     updateUrl(trigger);
   }
 
-  tabTriggers.forEach(trigger => trigger.addEventListener('click', toggleActiveTab));
-  window.addEventListener('popstate', e => (window.location = e.state || '/'));
+  tabTriggers.forEach((trigger) => trigger.addEventListener('click', toggleActiveTab));
+  window.addEventListener('popstate', (e) => (window.location = e.state || '/'));
 })();
