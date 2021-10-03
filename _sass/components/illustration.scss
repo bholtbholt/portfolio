@@ -12,7 +12,7 @@
     bottom: $margin;
     right: $margin;
     opacity: 0.1;
-    z-index: 0;
+    z-index: -1;
 
     @media (orientation: landscape) {
       height: calc(62vh);
