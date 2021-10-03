@@ -6,6 +6,7 @@ jump_line: Check out the project on jennypreswick.com
 tags: Jekyll Sass JavaScript Serverless
 categories: client
 bg_color: jenny
+published: false
 ---
 
 My wife, Jenny, a freelance writer and editor, needed a portfolio. Naturally, I put a site together to showcase her work.
