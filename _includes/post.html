@@ -4,7 +4,14 @@
 
     <ul class="list-inline font-sm mb-lg text-light">
       <li class="mr-sm">
-        <strong class="text-capitalize">{{ include.post.categories }}</strong> published on <a href="{{ include.post.published_url }}" target="_blank" rel="noreferrer">{{ include.post.publisher }}</a>, {{ include.post.date | date_to_long_string }}
+        <strong class="text-capitalize">{{ include.post.categories }}</strong>
+        {% if include.post.byline %}
+          {{ include.post.byline }}
+        {% else %}
+          published on
+          <a href="{{ include.post.published_url }}" target="_blank" rel="noreferrer">{{ include.post.publisher }}</a>,
+        {% endif %}
+        {{ include.post.date | date_to_long_string }}
       </li>
 
       {% for tag in include.post.tags %}

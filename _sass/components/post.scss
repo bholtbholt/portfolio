@@ -69,6 +69,14 @@
   --loading-dots-color-animate: hsla(322, 70%, 15%, 0.8);
 }
 
+.post._remote-resistance {
+  background-image: radial-gradient(circle at bottom, hsl(350, 89%, 60%), hsl(245, 58%, 51%));
+
+  --font-base: hsl(350, 89%, 96%);
+  --font-light: hsl(350, 89%, 86%);
+  --font-primary: hsl(350, 89%, 98%);
+}
+
 .post._bootstrap-upgrade {
   background-image: radial-gradient(circle at right, hsl(264, 39%, 51%), hsl(264, 80%, 76%));
 
