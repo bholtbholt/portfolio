@@ -5,7 +5,10 @@ publisher: Skillshare
 jump_line: Take the course on Skillshare
 tags: JavaScript
 categories: class
-bg_color: skillshare
+--bg-color: radial-gradient(circle at top, hsl(185, 98%, 26%), hsl(195, 100%, 22%))
+--font-base: hsl(180, 100%, 96%)
+--font-light: hsl(185, 98%, 86%)
+--font-primary: hsl(180, 98%, 99%)
 ---
 
 _Think Like a Programmer_ is a 30-minute course I created with the <a href="https://www.skillshare.com/" target="_blank" rel="noreferrer">Skillshare</a> expansion team to help designers, marketers, and product managers work better with developers. Students learn ways to apply high-level programming concepts to their job and gain insights into how developers approach problems.

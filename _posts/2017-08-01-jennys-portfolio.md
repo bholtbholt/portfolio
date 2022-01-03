@@ -5,8 +5,11 @@ publisher: jennypreswick.com
 jump_line: Check out the project on jennypreswick.com
 tags: Jekyll Sass JavaScript Serverless
 categories: client
-bg_color: jenny
 published: false
+--bg-color: radial-gradient(circle at top, hsl(150, 56%, 40%), hsl(150, 68%, 28%))
+--font-base: hsl(160, 70%, 96%)
+--font-light: hsl(160, 85%, 83%)
+--font-primary: hsl(170, 100%, 98%)
 ---
 
 My wife, Jenny, a freelance writer and editor, needed a portfolio. Naturally, I put a site together to showcase her work.

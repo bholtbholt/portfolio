@@ -3,7 +3,15 @@
   data-behavior="tab"
   class="tabs__content {% if page.active_tab == 'now' %}_active{% endif %}"
 >
-  <div class="post _now flex flex-vertical justify-center">
+  <div
+    class="post flex flex-vertical justify-center"
+    style="
+      --bg-color: radial-gradient(circle at top, hsl(40, 100%, 54%), hsl(36, 92%, 50%));
+      --font-base: hsl(60, 100%, 92%);
+      --font-light: hsl(44, 90%, 88%);
+      --font-primary: hsl(40, 100%, 97%);
+      --hr-color: hsl(40, 90%, 73%);"
+  >
     <div class="post__container mx-auto">
       <h1 class="text-primary shadow-text">
         What is he up to

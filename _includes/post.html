@@ -1,4 +1,13 @@
-<article id="{{ include.post.slug }}" class="post _{{ include.post.bg_color }} scroll-align-start flex flex-vertical justify-center">
+<article
+  id="{{ include.post.slug }}"
+  class="post scroll-align-start flex flex-vertical justify-center"
+  style="
+    --bg-color: {{ include.post.--bg-color }};
+    --font-base: {{ include.post.--font-base }};
+    --font-light: {{ include.post.--font-light }};
+    --font-primary: {{ include.post.--font-primary }};
+  "
+>
   <div class="post__container mx-auto">
     <h1 class="text-primary shadow-text">{{ include.post.title }}</h1>
 

@@ -4,7 +4,10 @@ publisher: Github
 jump_line: Get your start-up's colour on Github
 categories: project
 tags: Elm Sass Jekyll
-bg_color: startup-color
+--bg-color: radial-gradient(circle at top, hsl(204, 70%, 53%), hsl(204, 80%, 40%))
+--font-base: hsl(204, 80%, 93%)
+--font-light: hsl(204, 80%, 86%)
+--font-primary: hsl(204, 80%, 96%)
 ---
 
 _Start-up Colour_ is an off-hand joke between a friend and I. It seems every successful start-up eventually changes their brand colour to some shade of blue, which must mean blue is the most successful colour. Right? Sure.

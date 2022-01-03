@@ -37,14 +37,17 @@ There are two folders containing content:
 
 All posts are written in Markdown and should be under 600 characters because of scroll-snapping on mobile devices. Work front matter includes:
 
-| Front Matter Name | Expected Content                                                                                                   |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------ |
-| published_url     | An external URL to see the work.                                                                                   |
-| publisher         | Name of where the content is published. Used in "Work published on #{publisher}".                                  |
-| jump_line         | Full text for the jump line. Allows customized actions, like "read", "check out", "watch", etc.                    |
-| categories        | Basic Jekyll categories. Used to categorize types of work.                                                         |
-| tags              | Basic Jekyll tags. Used to tag technologies worked with.                                                           |
-| bg_color          | CSS class that corresponds to \_sass/components/post.scss modifier class. Used to set background and text colours. |
+| Front Matter Name | Expected Content                                                                                |
+| ----------------- | ----------------------------------------------------------------------------------------------- |
+| published_url     | An external URL to see the work.                                                                |
+| publisher         | Name of where the content is published. Used in "Work published on #{publisher}".               |
+| jump_line         | Full text for the jump line. Allows customized actions, like "read", "check out", "watch", etc. |
+| categories        | Basic Jekyll categories. Used to categorize types of work.                                      |
+| tags              | Basic Jekyll tags. Used to tag technologies worked with.                                        |
+| --bg-color        | CSS Custom Property that sets the post background color                                         |
+| --font-base       | CSS Custom Property that sets the post content color                                            |
+| --font-light      | CSS Custom Property that sets the byline color of the post                                      |
+| --font-primary    | CSS Custom Property that sets the title color of the post                                       |
 
 ### Now Content
 

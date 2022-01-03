@@ -5,7 +5,10 @@ publisher: YouTube
 jump_line: Watch the video on YouTube
 categories: talk
 tags: [Ruby on Rails]
-bg_color: components
+--bg-color: radial-gradient(circle, hsl(358, 72%, 45%), hsl(358, 78%, 38%))
+--font-base: hsl(358, 76%, 92%)
+--font-light: hsl(358, 72%, 88%)
+--font-primary: hsl(358, 72%, 95%)
 ---
 
 To help back-end developers on my team release user interfaces faster, I created a reusable component library in <a href="https://rubyonrails.org" target="_blank" rel="noreferrer">Ruby on Rails</a>, influenced by <a href="https://reactjs.org" target="_blank" rel="noreferrer">React</a>. Rather than worrying about CSS, they call components with a Rails helper, pass in its props, and have it styled appropriately.

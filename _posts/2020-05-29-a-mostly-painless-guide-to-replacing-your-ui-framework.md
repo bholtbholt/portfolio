@@ -5,7 +5,10 @@ publisher: LogRocket
 jump_line: Read the article on LogRocket
 tags: CSS
 categories: article
-bg_color: bootstrap-upgrade
+--bg-color: radial-gradient(circle at right, hsl(264, 39%, 51%), hsl(264, 80%, 76%))
+--font-base: hsl(264, 39%, 96%)
+--font-light: hsl(264, 39%, 86%)
+--font-primary: hsl(264, 39%, 98%)
 ---
 
 Leading a team of three, we rebuilt the entire <a href="https://retail-zipline.breezy.hr" target="_blank" rel="noreferrer">Retail Zipline</a> front-end in under two months. Afterwards, I wrote about what processes worked, the tools we used, and lessons learned over at the <a href="https://blog.logrocket.com" target="_blank" rel="noreferrer">LogRocket</a> blog.

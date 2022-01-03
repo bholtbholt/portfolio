@@ -5,7 +5,10 @@ publisher: CSS Tricks
 jump_line: Read the article on CSS Tricks
 tags: CSS
 categories: article
-bg_color: css-tricks
+--bg-color: radial-gradient(circle at top right, hsl(32, 100%, 50%), hsl(338, 78%, 48%))
+--font-base: hsl(28, 90%, 96%)
+--font-light: hsl(29, 70%, 86%)
+--font-primary: hsl(28, 90%, 98%)
 ---
 
 In this <a href="https://css-tricks.com" target="_blank" rel="noreferrer">CSS Tricks</a> article, I share a clever technique that mimics CSS Grid's Auto-Placement feature using Flexbox, making it compatible with IE10+. There are no hacks, no extra markup, and no stretching elements. Just clean cells with gutters, perfectly aligned making it visually indistinguishable.
