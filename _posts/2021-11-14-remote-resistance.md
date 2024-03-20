@@ -1,6 +1,6 @@
 ---
 published_url: https://github.com/bholtbholt/remote-resistance
-jump_line: Read the code
+jump_line: Read the code on Github
 byline: released on
 tags: Svelte TailwindCSS Websockets ViteJS Node
 categories: game
