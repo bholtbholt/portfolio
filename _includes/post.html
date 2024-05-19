@@ -22,10 +22,6 @@
         {% endif %}
         {{ include.post.date | date_to_long_string }}
       </li>
-
-      {% for tag in include.post.tags %}
-        <li class="font-xs">{{ tag }}</li>
-      {% endfor %}
     </ul>
 
     {{ include.post.content }}
