@@ -31,6 +31,9 @@
     const formElements = Array.from(form);
     formElements.map(input => (data[input.name] = input.value));
 
+    // Reject spam messages which are usually single words
+    if (data.message.split(' ').length < 3) return;
+
     // Construct an HTTP request
     var xhr = new XMLHttpRequest();
     xhr.open(form.method, form.action, true);
