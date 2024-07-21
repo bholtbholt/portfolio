@@ -13,49 +13,59 @@
       : button.getAttribute('data-label');
   }
 
-  form.onsubmit = e => {
+  function isSpam(text) {
+    const randomStringPattern = /^[A-Za-z]{5,}$/;
+    return randomStringPattern.test(text);
+  }
+
+  form.onsubmit = async (e) => {
     e.preventDefault();
-    // Escape if the honeypot has been filled
-    if (!!form.children.namedItem('honeypot').value) return;
+    const form = e.target;
+    const data = {};
+    const formElements = Array.from(form);
+    formElements.map((input) => (data[input.name] = input.value));
 
     // Disable submissions, show loading
-    const submitButton = e.target.querySelector('[type="submit"]');
+    const submitButton = form.querySelector('[type="submit"]');
     toggleButtonState(submitButton);
+
+    // Reject if the honeypot has been filled
+    if (form.querySelector('[name="phone"]').value) return;
+
+    // Reject spam messages which are usually single words
+    if (isSpam(data.name) && isSpam(data.message)) return;
 
     // reset form response message
     formResponse.innerHTML = '';
     formResponse.classList.remove('_success', '_warning', '_slide-in', '_fade-out');
 
-    // Prepare data to send
-    const data = {};
-    const formElements = Array.from(form);
-    formElements.map(input => (data[input.name] = input.value));
+    try {
+      // Send the collected data as JSON
+      const response = await fetch(form.action, {
+        method: form.method,
+        headers: {
+          Accept: 'application/json; charset=utf-8',
+          'Content-Type': 'application/json; charset=UTF-8',
+        },
+        body: JSON.stringify(data),
+      });
 
-    // Reject spam messages which are usually single words
-    if (data.message.trim().split(' ').length < 3) return;
-
-    // Construct an HTTP request
-    var xhr = new XMLHttpRequest();
-    xhr.open(form.method, form.action, true);
-    xhr.setRequestHeader('Accept', 'application/json; charset=utf-8');
-    xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
-
-    // Send the collected data as JSON
-    xhr.send(JSON.stringify(data));
-
-    // Callback function
-    xhr.onloadend = response => {
       toggleButtonState(submitButton);
-      if (response.target.status === 200) {
+
+      if (response.ok) {
         form.reset();
         formResponse.classList.add('_success', '_slide-in', '_fade-out');
         formResponse.innerHTML = "Thanks for the message. I'll be in touch shortly.";
       } else {
-        formResponse.classList.add('_warning', '_slide-in');
-        formResponse.innerHTML =
-          'Something went wrong. Please try again, or <a href="mailto:bholtbholt@icloud.com">email me directly</a>.';
-        console.error(JSON.parse(response.target.response).message);
+        const errorData = await response.json();
+        throw new Error(errorData.message);
       }
-    };
+    } catch (error) {
+      toggleButtonState(submitButton);
+      formResponse.classList.add('_warning', '_slide-in');
+      formResponse.innerHTML =
+        'Something went wrong. Please try again, or <a href="mailto:bholtbholt@icloud.com">email me directly</a>.';
+      console.error(error);
+    }
   };
 })();
