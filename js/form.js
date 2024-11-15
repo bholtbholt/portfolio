@@ -29,9 +29,6 @@
     const submitButton = form.querySelector('[type="submit"]');
     toggleButtonState(submitButton);
 
-    // Reject if the honeypot has been filled
-    if (form.querySelector('[name="phone"]').value) return;
-
     // Reject spam messages which are usually single words
     if (isSpam(data.name) && isSpam(data.message)) return;
 

@@ -7,9 +7,7 @@ github: https://github.com/bholtbholt
 linkedin: https://linkedin.com/in/bholtbholt
 
 form:
-  action: https://2vauwh7ky0.execute-api.us-east-1.amazonaws.com/dev/static-site-mailer
-  ses_email: staticsitecontactform@gmail.com
-  send_to_email: bholtbholt@icloud.com
+  action: https://formsubmit.co/c168c951e89fffaf972dbecd9fa5e4c1
 
 port: 3000
 

@@ -1,8 +1,6 @@
 <form id="js-submit-contact-form" action="{{site.form.action}}" method="POST" class="mb-lg">
-  <input type="hidden" name="ses_address" value="{{site.form.ses_email}}" />
-  <input type="hidden" name="send_to" value="{{site.form.send_to_email}}" />
-  <input type="hidden" name="subject" value="[{{site.title}}]: New message!" />
-  <input type="input" name="phone" value="" style="all: unset;" />
+  <input type="hidden" name="_subject" value="[{{site.title}}]: New message!" />
+  <input type="text" name="_honey" style="display:none">
 
   <div class="flex-desktop">
     <div class="col mb-lg">
@@ -12,7 +10,7 @@
 
     <div class="col mb-lg">
       <label for="email" class="font-sm text-uppercase mb-xs">Your email:</label>
-      <input id="email" type="email" name="reply_to" class="form-control" required />
+      <input id="email" type="email" name="email" class="form-control" required />
     </div>
   </div>
 
